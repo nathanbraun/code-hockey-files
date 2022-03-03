@@ -1,0 +1,32 @@
+team_id,franchise_id,name,mascott,team,division,conference
+1,23,New Jersey,Devils,NJD,Metropolitan,Eastern
+4,16,Philadelphia,Flyers,PHI,Metropolitan,Eastern
+26,14,Los Angeles,Kings,LAK,Pacific,Western
+14,31,Tampa Bay,Lightning,TBL,Atlantic,Eastern
+6,6,Boston,Bruins,BOS,Atlantic,Eastern
+3,10,NY Rangers,Rangers,NYR,Metropolitan,Eastern
+5,17,Pittsburgh,Penguins,PIT,Metropolitan,Eastern
+17,12,Detroit,Red Wings,DET,Atlantic,Eastern
+28,29,San Jose,Sharks,SJS,Pacific,Western
+18,34,Nashville,Predators,NSH,Central,Western
+23,20,Vancouver,Canucks,VAN,Pacific,Western
+16,11,Chicago,Blackhawks,CHI,Central,Western
+9,30,Ottawa,Senators,OTT,Atlantic,Eastern
+8,1,Montreal,Canadiens,MTL,Atlantic,Eastern
+30,37,Minnesota,Wild,MIN,Central,Western
+15,24,Washington,Capitals,WSH,Metropolitan,Eastern
+19,18,St Louis,Blues,STL,Central,Western
+24,32,Anaheim,Ducks,ANA,Pacific,Western
+2,22,NY Islanders,Islanders,NYI,Metropolitan,Eastern
+10,5,Toronto,Maple Leafs,TOR,Atlantic,Eastern
+13,33,Florida,Panthers,FLA,Atlantic,Eastern
+7,19,Buffalo,Sabres,BUF,Atlantic,Eastern
+20,21,Calgary,Flames,CGY,Pacific,Western
+21,27,Colorado,Avalanche,COL,Central,Western
+25,15,Dallas,Stars,DAL,Central,Western
+29,36,Columbus,Blue Jackets,CBJ,Metropolitan,Eastern
+52,35,Winnipeg,Jets,WPG,Central,Western
+22,25,Edmonton,Oilers,EDM,Pacific,Western
+54,38,Vegas,Golden Knights,VGK,Pacific,Western
+12,26,Carolina,Hurricanes,CAR,Metropolitan,Eastern
+53,28,Arizona,Coyotes,ARI,Pacific,Western

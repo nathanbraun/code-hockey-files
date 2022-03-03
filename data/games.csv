@@ -1,0 +1,1095 @@
+game_id,season,date_time_gmt,away_team,away_team_id,home_team,home_team_id,away_goals,home_goals,outcome,home_rink_side_start,venue,time_zone_offset,time_zone
+2019020001,20192020,2019-10-02T23:00:00Z,OTT,9,TOR,10,3,5,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020795,20192020,2020-02-02T00:00:00Z,OTT,9,TOR,10,1,2,home win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020180,20192020,2019-10-29T23:00:00Z,WSH,15,TOR,10,4,3,away win OT,right,Scotiabank Arena,-4,America/Toronto
+2019021003,20192020,2020-03-01T00:00:00Z,VAN,23,TOR,10,2,4,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020156,20192020,2019-10-25T23:00:00Z,SJS,28,TOR,10,1,4,home win REG,right,Scotiabank Arena,-4,America/Toronto
+2019020809,20192020,2020-02-04T00:00:00Z,FLA,13,TOR,10,5,3,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020675,20192020,2020-01-09T00:30:00Z,WPG,52,TOR,10,4,3,away win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020405,20192020,2019-12-01T00:00:00Z,BUF,7,TOR,10,1,2,home win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020525,20192020,2019-12-18T00:00:00Z,BUF,7,TOR,10,3,5,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020019,20192020,2019-10-05T23:00:00Z,MTL,8,TOR,10,6,5,away win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020085,20192020,2019-10-15T23:00:00Z,MIN,30,TOR,10,2,4,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020115,20192020,2019-10-19T23:00:00Z,BOS,6,TOR,10,3,4,home win OT,right,Scotiabank Arena,-4,America/Toronto
+2019020294,20192020,2019-11-16T00:00:00Z,BOS,6,TOR,10,4,2,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020728,20192020,2020-01-17T00:00:00Z,CGY,20,TOR,10,2,1,away win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020867,20192020,2020-02-12T00:00:00Z,ARI,53,TOR,10,2,3,home win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020747,20192020,2020-01-19T00:00:00Z,CHI,16,TOR,10,6,2,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020237,20192020,2019-11-08T00:00:00Z,VGK,54,TOR,10,1,2,home win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020715,20192020,2020-01-15T00:00:00Z,NJD,1,TOR,10,4,7,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020593,20192020,2019-12-29T00:00:00Z,NYR,3,TOR,10,5,4,away win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020047,20192020,2019-10-10T23:00:00Z,TBL,14,TOR,10,7,3,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019021070,20192020,2020-03-10T23:00:00Z,TBL,14,TOR,10,1,2,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020129,20192020,2019-10-21T23:00:00Z,CBJ,29,TOR,10,4,3,away win OT,right,Scotiabank Arena,-4,America/Toronto
+2019020569,20192020,2019-12-23T19:00:00Z,CAR,12,TOR,10,6,8,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020951,20192020,2020-02-23T00:00:00Z,CAR,12,TOR,10,6,3,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020881,20192020,2020-02-14T00:00:00Z,DAL,25,TOR,10,3,2,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020556,20192020,2019-12-22T00:00:00Z,DET,17,TOR,10,1,4,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020228,20192020,2019-11-06T00:30:00Z,LAK,26,TOR,10,1,3,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020034,20192020,2019-10-07T23:00:00Z,STL,19,TOR,10,3,2,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020659,20192020,2020-01-07T00:00:00Z,EDM,22,TOR,10,6,4,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020839,20192020,2020-02-08T00:00:00Z,ANA,24,TOR,10,4,5,home win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020646,20192020,2020-01-05T00:00:00Z,NYI,2,TOR,10,0,3,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020933,20192020,2020-02-21T00:00:00Z,PIT,5,TOR,10,0,4,home win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020253,20192020,2019-11-10T00:00:00Z,PHI,4,TOR,10,3,2,away win OT,right,Scotiabank Arena,-5,America/Toronto
+2019020434,20192020,2019-12-05T00:00:00Z,COL,21,TOR,10,3,1,away win REG,right,Scotiabank Arena,-5,America/Toronto
+2019020105,20192020,2019-10-18T02:00:00Z,OTT,9,VGK,54,2,3,home win OT,,T-Mobile Arena,-7,America/Los_Angeles
+2019020918,20192020,2020-02-17T23:00:00Z,WSH,15,VGK,54,2,3,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020518,20192020,2019-12-16T01:00:00Z,VAN,23,VGK,54,3,6,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020004,20192020,2019-10-03T02:30:00Z,SJS,28,VGK,54,1,4,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020344,20192020,2019-11-22T03:00:00Z,SJS,28,VGK,54,2,1,away win OT,,T-Mobile Arena,-8,America/Los_Angeles
+2019020957,20192020,2020-02-23T03:00:00Z,FLA,13,VGK,54,3,5,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020215,20192020,2019-11-03T02:00:00Z,WPG,52,VGK,54,4,3,away win OT,,T-Mobile Arena,-8,America/Los_Angeles
+2019020997,20192020,2020-02-29T03:00:00Z,BUF,7,VGK,54,2,4,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020195,20192020,2019-11-01T02:00:00Z,MTL,8,VGK,54,5,4,away win OT,,T-Mobile Arena,-8,America/Los_Angeles
+2019020533,20192020,2019-12-18T03:00:00Z,MIN,30,VGK,54,2,3,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020043,20192020,2019-10-09T02:00:00Z,BOS,6,VGK,54,4,3,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020074,20192020,2019-10-13T02:00:00Z,CGY,20,VGK,54,2,6,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020315,20192020,2019-11-18T00:00:00Z,CGY,20,VGK,54,0,6,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020399,20192020,2019-11-29T23:00:00Z,ARI,53,VGK,54,1,2,home win OT,,T-Mobile Arena,-8,America/Los_Angeles
+2019020600,20192020,2019-12-29T03:00:00Z,ARI,53,VGK,54,1,4,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020285,20192020,2019-11-14T03:00:00Z,CHI,16,VGK,54,5,3,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020482,20192020,2019-12-11T03:00:00Z,CHI,16,VGK,54,1,5,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020329,20192020,2019-11-20T03:00:00Z,TOR,10,VGK,54,2,4,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019021027,20192020,2020-03-04T03:00:00Z,NJD,1,VGK,54,0,3,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020466,20192020,2019-12-09T00:00:00Z,NYR,3,VGK,54,5,0,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020939,20192020,2020-02-21T03:00:00Z,TBL,14,VGK,54,3,5,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020701,20192020,2020-01-12T03:00:00Z,CBJ,29,VGK,54,3,0,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020854,20192020,2020-02-09T03:00:00Z,CAR,12,VGK,54,6,5,away win OT,,T-Mobile Arena,-8,America/Los_Angeles
+2019030012,20192020,2020-08-03T22:30:00Z,DAL,25,VGK,54,3,5,home win REG,,Rogers Place,-8,America/Los_Angeles
+2019020686,20192020,2020-01-10T03:00:00Z,LAK,26,VGK,54,5,2,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019021016,20192020,2020-03-02T03:30:00Z,LAK,26,VGK,54,4,1,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020644,20192020,2020-01-04T21:00:00Z,STL,19,VGK,54,4,5,home win OT,,T-Mobile Arena,-8,America/Los_Angeles
+2019020889,20192020,2020-02-14T03:00:00Z,STL,19,VGK,54,5,6,home win OT,,T-Mobile Arena,-8,America/Los_Angeles
+2019020360,20192020,2019-11-24T03:00:00Z,EDM,22,VGK,54,4,2,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020982,20192020,2020-02-27T03:30:00Z,EDM,22,VGK,54,0,3,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020176,20192020,2019-10-28T00:00:00Z,ANA,24,VGK,54,2,5,home win REG,,T-Mobile Arena,-7,America/Los_Angeles
+2019020615,20192020,2019-12-31T20:00:00Z,ANA,24,VGK,54,2,5,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020905,20192020,2020-02-16T03:30:00Z,NYI,2,VGK,54,0,1,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020090,20192020,2019-10-16T02:00:00Z,NSH,18,VGK,54,5,2,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020673,20192020,2020-01-08T03:00:00Z,PIT,5,VGK,54,4,3,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020638,20192020,2020-01-03T03:00:00Z,PHI,4,VGK,54,4,5,home win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020155,20192020,2019-10-25T22:00:00Z,COL,21,VGK,54,6,1,away win REG,,T-Mobile Arena,-7,America/Los_Angeles
+2019020580,20192020,2019-12-24T03:00:00Z,COL,21,VGK,54,7,3,away win REG,,T-Mobile Arena,-8,America/Los_Angeles
+2019020120,20192020,2019-10-19T23:00:00Z,OTT,9,ARI,53,2,5,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020904,20192020,2020-02-16T03:00:00Z,WSH,15,ARI,53,1,3,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020412,20192020,2019-12-01T01:00:00Z,SJS,28,ARI,53,4,2,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020724,20192020,2020-01-15T02:00:00Z,SJS,28,ARI,53,3,6,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020979,20192020,2020-02-26T02:00:00Z,FLA,13,ARI,53,2,1,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019021008,20192020,2020-03-01T01:00:00Z,BUF,7,ARI,53,2,5,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020192,20192020,2019-10-31T02:00:00Z,MTL,8,ARI,53,4,1,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020259,20192020,2019-11-10T01:00:00Z,MIN,30,ARI,53,4,3,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020546,20192020,2019-12-20T02:30:00Z,MIN,30,ARI,53,8,5,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020027,20192020,2019-10-06T01:00:00Z,BOS,6,ARI,53,1,0,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020302,20192020,2019-11-16T21:00:00Z,CGY,20,ARI,53,0,3,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020480,20192020,2019-12-11T02:00:00Z,CGY,20,ARI,53,5,2,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020495,20192020,2019-12-13T02:00:00Z,CHI,16,ARI,53,2,5,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020802,20192020,2020-02-02T01:00:00Z,CHI,16,ARI,53,3,2,away win OT,left,Gila River Arena,-7,America/Phoenix
+2019020343,20192020,2019-11-22T02:00:00Z,TOR,10,ARI,53,3,1,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020057,20192020,2019-10-11T02:00:00Z,VGK,54,ARI,53,1,4,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020513,20192020,2019-12-15T01:00:00Z,NJD,1,ARI,53,2,1,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020955,20192020,2020-02-23T01:00:00Z,TBL,14,ARI,53,3,7,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020246,20192020,2019-11-08T02:00:00Z,CBJ,29,ARI,53,3,2,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020838,20192020,2020-02-07T02:00:00Z,CAR,12,ARI,53,5,3,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020609,20192020,2019-12-30T01:00:00Z,DAL,25,ARI,53,4,2,away win REG,left,Gila River Arena,-7,America/Phoenix
+2019020317,20192020,2019-11-19T02:00:00Z,LAK,26,ARI,53,0,3,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020784,20192020,2020-01-31T02:30:00Z,LAK,26,ARI,53,3,2,away win OT,left,Gila River Arena,-7,America/Phoenix
+2019020624,20192020,2020-01-01T02:00:00Z,STL,19,ARI,53,1,3,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020364,20192020,2019-11-25T01:00:00Z,EDM,22,ARI,53,4,3,away win OT,left,Gila River Arena,-7,America/Phoenix
+2019020824,20192020,2020-02-05T02:00:00Z,EDM,22,ARI,53,0,3,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020386,20192020,2019-11-28T02:30:00Z,ANA,24,ARI,53,3,4,home win OT,left,Gila River Arena,-7,America/Phoenix
+2019020636,20192020,2020-01-03T02:00:00Z,ANA,24,ARI,53,2,4,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020916,20192020,2020-02-17T21:00:00Z,NYI,2,ARI,53,1,2,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020104,20192020,2019-10-18T02:00:00Z,NSH,18,ARI,53,2,5,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020706,20192020,2020-01-12T23:00:00Z,PIT,5,ARI,53,4,3,away win OT,left,Gila River Arena,-7,America/Phoenix
+2019020650,20192020,2020-01-05T01:00:00Z,PHI,4,ARI,53,2,6,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020214,20192020,2019-11-03T01:00:00Z,COL,21,ARI,53,0,3,home win REG,left,Gila River Arena,-7,America/Phoenix
+2019020132,20192020,2019-10-22T00:30:00Z,OTT,9,DAL,25,1,2,home win REG,right,American Airlines Center,-5,America/Chicago
+2019020070,20192020,2019-10-13T00:00:00Z,WSH,15,DAL,25,4,1,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020327,20192020,2019-11-20T01:30:00Z,VAN,23,DAL,25,1,6,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020342,20192020,2019-11-22T01:30:00Z,WPG,52,DAL,25,3,5,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020445,20192020,2019-12-06T01:30:00Z,WPG,52,DAL,25,2,3,home win OT,right,American Airlines Center,-6,America/Chicago
+2019020737,20192020,2020-01-17T01:30:00Z,BUF,7,DAL,25,4,1,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020212,20192020,2019-11-02T23:00:00Z,MTL,8,DAL,25,1,4,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020186,20192020,2019-10-30T00:30:00Z,MIN,30,DAL,25,3,6,home win REG,right,American Airlines Center,-5,America/Chicago
+2019020842,20192020,2020-02-08T01:30:00Z,MIN,30,DAL,25,3,2,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020010,20192020,2019-10-04T00:30:00Z,BOS,6,DAL,25,2,1,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020055,20192020,2019-10-11T00:30:00Z,CGY,20,DAL,25,3,2,away win OT,right,American Airlines Center,-6,America/Chicago
+2019020567,20192020,2019-12-23T00:00:00Z,CGY,20,DAL,25,5,1,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020928,20192020,2020-02-20T01:30:00Z,ARI,53,DAL,25,2,3,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020359,20192020,2019-11-24T01:00:00Z,CHI,16,DAL,25,1,2,home win OT,right,American Airlines Center,-6,America/Chicago
+2019020961,20192020,2020-02-23T20:00:00Z,CHI,16,DAL,25,1,2,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020777,20192020,2020-01-30T00:30:00Z,TOR,10,DAL,25,5,3,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020371,20192020,2019-11-26T01:30:00Z,VGK,54,DAL,25,2,4,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020499,20192020,2019-12-14T01:00:00Z,VGK,54,DAL,25,3,2,away win OT,right,American Airlines Center,-6,America/Chicago
+2019020478,20192020,2019-12-11T01:30:00Z,NJD,1,DAL,25,0,2,home win REG,right,American Airlines Center,-6,America/Chicago
+2019021076,20192020,2020-03-11T00:30:00Z,NYR,3,DAL,25,4,2,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020771,20192020,2020-01-28T01:00:00Z,TBL,14,DAL,25,2,3,home win OT,right,American Airlines Center,-6,America/Chicago
+2019020873,20192020,2020-02-12T01:30:00Z,CAR,12,DAL,25,1,4,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020640,20192020,2020-01-04T01:30:00Z,DET,17,DAL,25,1,4,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020402,20192020,2019-11-30T01:30:00Z,STL,19,DAL,25,3,1,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020944,20192020,2020-02-22T01:30:00Z,STL,19,DAL,25,5,1,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020523,20192020,2019-12-17T01:30:00Z,EDM,22,DAL,25,2,1,away win REG,right,American Airlines Center,-6,America/Chicago
+2019021026,20192020,2020-03-04T01:30:00Z,EDM,22,DAL,25,2,1,away win OT,right,American Airlines Center,-6,America/Chicago
+2019020152,20192020,2019-10-25T00:30:00Z,ANA,24,DAL,25,1,2,home win REG,right,American Airlines Center,-5,America/Chicago
+2019020461,20192020,2019-12-08T02:00:00Z,NYI,2,DAL,25,1,3,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020626,20192020,2020-01-01T19:00:00Z,NSH,18,DAL,25,2,4,home win REG,right,Cotton Bowl Stadium,-6,America/Chicago
+2019021051,20192020,2020-03-07T19:00:00Z,NSH,18,DAL,25,1,0,away win REG,right,American Airlines Center,-6,America/Chicago
+2019020166,20192020,2019-10-27T00:00:00Z,PIT,5,DAL,25,3,0,away win REG,right,American Airlines Center,-5,America/Chicago
+2019020230,20192020,2019-11-06T01:30:00Z,COL,21,DAL,25,1,4,home win REG,right,American Airlines Center,-6,America/Chicago
+2019020598,20192020,2019-12-29T00:00:00Z,COL,21,DAL,25,2,3,home win OT,right,American Airlines Center,-6,America/Chicago
+2019030013,20192020,2020-08-05T22:30:00Z,COL,21,DAL,25,4,0,away win REG,right,Rogers Place,-6,America/Chicago
+2019020206,20192020,2019-11-02T23:00:00Z,OTT,9,BOS,6,2,5,home win REG,left,TD Garden,-5,America/New_York
+2019020303,20192020,2019-11-17T00:00:00Z,WSH,15,BOS,6,3,2,away win OT,left,TD Garden,-5,America/New_York
+2019020571,20192020,2019-12-24T00:00:00Z,WSH,15,BOS,6,3,7,home win REG,left,TD Garden,-5,America/New_York
+2019020812,20192020,2020-02-05T00:00:00Z,VAN,23,BOS,6,0,4,home win REG,left,TD Garden,-5,America/New_York
+2019020179,20192020,2019-10-29T23:00:00Z,SJS,28,BOS,6,1,5,home win REG,left,TD Garden,-4,America/New_York
+2019020272,20192020,2019-11-13T00:00:00Z,FLA,13,BOS,6,5,4,away win OT,left,TD Garden,-5,America/New_York
+2019020678,20192020,2020-01-10T00:00:00Z,WPG,52,BOS,6,4,5,home win REG,left,TD Garden,-5,America/New_York
+2019020333,20192020,2019-11-22T00:00:00Z,BUF,7,BOS,6,2,3,home win REG,left,TD Garden,-5,America/New_York
+2019020606,20192020,2019-12-30T00:00:00Z,BUF,7,BOS,6,2,3,home win REG,left,TD Garden,-5,America/New_York
+2019020417,20192020,2019-12-02T00:00:00Z,MTL,8,BOS,6,1,3,home win REG,left,TD Garden,-5,America/New_York
+2019020877,20192020,2020-02-13T00:30:00Z,MTL,8,BOS,6,1,4,home win REG,left,TD Garden,-5,America/New_York
+2019020351,20192020,2019-11-24T00:00:00Z,MIN,30,BOS,6,4,5,home win OT,left,TD Garden,-5,America/New_York
+2019020968,20192020,2020-02-26T00:00:00Z,CGY,20,BOS,6,5,2,away win REG,left,TD Garden,-5,America/New_York
+2019020844,20192020,2020-02-08T20:00:00Z,ARI,53,BOS,6,2,4,home win REG,left,TD Garden,-5,America/New_York
+2019020438,20192020,2019-12-06T00:00:00Z,CHI,16,BOS,6,4,3,away win OT,left,TD Garden,-5,America/New_York
+2019020133,20192020,2019-10-22T23:00:00Z,TOR,10,BOS,6,2,4,home win REG,left,TD Garden,-4,America/New_York
+2019020761,20192020,2020-01-22T00:00:00Z,VGK,54,BOS,6,2,3,home win REG,left,TD Garden,-5,America/New_York
+2019020064,20192020,2019-10-12T23:00:00Z,NJD,1,BOS,6,0,3,home win REG,left,TD Garden,-5,America/New_York
+2019020391,20192020,2019-11-29T18:00:00Z,NYR,3,BOS,6,2,3,home win OT,left,TD Garden,-5,America/New_York
+2019020098,20192020,2019-10-17T23:00:00Z,TBL,14,BOS,6,4,3,away win OT,left,TD Garden,-4,America/New_York
+2019021053,20192020,2020-03-08T00:00:00Z,TBL,14,BOS,6,5,3,away win REG,left,TD Garden,-5,America/New_York
+2019030003,20192020,2020-08-05T20:00:00Z,TBL,14,BOS,6,3,2,away win REG,left,Scotiabank Arena,-5,America/New_York
+2019020627,20192020,2020-01-03T00:00:00Z,CBJ,29,BOS,6,2,1,away win OT,left,TD Garden,-5,America/New_York
+2019020424,20192020,2019-12-04T00:00:00Z,CAR,12,BOS,6,0,2,home win REG,left,TD Garden,-5,America/New_York
+2019020984,20192020,2020-02-28T00:30:00Z,DAL,25,BOS,6,3,4,home win REG,left,TD Garden,-5,America/New_York
+2019020895,20192020,2020-02-15T18:00:00Z,DET,17,BOS,6,1,4,home win REG,left,TD Garden,-5,America/New_York
+2019020524,20192020,2019-12-18T00:00:00Z,LAK,26,BOS,6,4,3,away win OT,left,TD Garden,-5,America/New_York
+2019020162,20192020,2019-10-26T23:00:00Z,STL,19,BOS,6,0,3,home win REG,left,TD Garden,-4,America/New_York
+2019020641,20192020,2020-01-04T18:00:00Z,EDM,22,BOS,6,4,1,away win REG,left,TD Garden,-5,America/New_York
+2019020078,20192020,2019-10-14T17:00:00Z,ANA,24,BOS,6,2,4,home win REG,left,TD Garden,-5,America/New_York
+2019020538,20192020,2019-12-20T00:00:00Z,NYI,2,BOS,6,3,2,away win OT,left,TD Garden,-5,America/New_York
+2019020555,20192020,2019-12-22T00:00:00Z,NSH,18,BOS,6,4,3,away win OT,left,TD Garden,-5,America/New_York
+2019020220,20192020,2019-11-05T00:00:00Z,PIT,5,BOS,6,4,6,home win REG,left,TD Garden,-5,America/New_York
+2019020727,20192020,2020-01-17T00:00:00Z,PIT,5,BOS,6,1,4,home win REG,left,TD Garden,-5,America/New_York
+2019020267,20192020,2019-11-11T00:00:00Z,PHI,4,BOS,6,3,2,away win OT,left,TD Garden,-5,America/New_York
+2019030001,20192020,2020-08-02T19:00:00Z,PHI,4,BOS,6,4,1,away win REG,left,Scotiabank Arena,-5,America/New_York
+2019020454,20192020,2019-12-08T00:00:00Z,COL,21,BOS,6,4,1,away win REG,left,TD Garden,-5,America/New_York
+2019020221,20192020,2019-11-05T00:00:00Z,OTT,9,NYR,3,6,2,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020332,20192020,2019-11-21T01:00:00Z,WSH,15,NYR,3,1,4,home win REG,right,Madison Square Garden,-5,America/New_York
+2019021036,20192020,2020-03-06T00:00:00Z,WSH,15,NYR,3,5,6,home win OT,right,Madison Square Garden,-5,America/New_York
+2019020124,20192020,2019-10-20T17:00:00Z,VAN,23,NYR,3,3,2,away win REG,right,Madison Square Garden,-4,America/New_York
+2019020953,20192020,2020-02-23T00:00:00Z,SJS,28,NYR,3,2,3,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020263,20192020,2019-11-10T18:00:00Z,FLA,13,NYR,3,6,5,away win OT,right,Madison Square Garden,-5,America/New_York
+2019020006,20192020,2019-10-03T23:00:00Z,WPG,52,NYR,3,4,6,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020147,20192020,2019-10-24T23:00:00Z,BUF,7,NYR,3,2,6,home win REG,right,Madison Square Garden,-4,America/New_York
+2019020840,20192020,2020-02-08T00:00:00Z,BUF,7,NYR,3,3,2,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020448,20192020,2019-12-07T00:00:00Z,MTL,8,NYR,3,2,1,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020366,20192020,2019-11-26T00:00:00Z,MIN,30,NYR,3,2,3,home win OT,right,Madison Square Garden,-5,America/New_York
+2019020174,20192020,2019-10-27T23:00:00Z,BOS,6,NYR,3,7,4,away win REG,right,Madison Square Garden,-4,America/New_York
+2019020907,20192020,2020-02-16T20:30:00Z,BOS,6,NYR,3,3,1,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020136,20192020,2019-10-22T23:00:00Z,ARI,53,NYR,3,3,2,away win OT,right,Madison Square Garden,-4,America/New_York
+2019020550,20192020,2019-12-21T00:00:00Z,TOR,10,NYR,3,6,3,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020825,20192020,2020-02-06T00:30:00Z,TOR,10,NYR,3,3,5,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020420,20192020,2019-12-03T00:00:00Z,VGK,54,NYR,3,4,1,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020682,20192020,2020-01-10T00:00:00Z,NJD,1,NYR,3,3,6,home win REG,right,Madison Square Garden,-5,America/New_York
+2019021055,20192020,2020-03-08T00:00:00Z,NJD,1,NYR,3,6,4,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020181,20192020,2019-10-29T23:30:00Z,TBL,14,NYR,3,1,4,home win REG,right,Madison Square Garden,-4,America/New_York
+2019020757,20192020,2020-01-20T00:00:00Z,CBJ,29,NYR,3,2,1,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020381,20192020,2019-11-28T00:00:00Z,CAR,12,NYR,3,2,3,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020584,20192020,2019-12-28T00:00:00Z,CAR,12,NYR,3,3,5,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020810,20192020,2020-02-04T00:00:00Z,DAL,25,NYR,3,5,3,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020235,20192020,2019-11-07T01:00:00Z,DET,17,NYR,3,1,5,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020785,20192020,2020-02-01T00:00:00Z,DET,17,NYR,3,2,4,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020857,20192020,2020-02-09T23:00:00Z,LAK,26,NYR,3,1,4,home win REG,right,Madison Square Garden,-5,America/New_York
+2019021021,20192020,2020-03-04T00:00:00Z,STL,19,NYR,3,3,1,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020061,20192020,2019-10-12T17:00:00Z,EDM,22,NYR,3,4,1,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020565,20192020,2019-12-22T17:30:00Z,ANA,24,NYR,3,1,5,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020710,20192020,2020-01-14T00:00:00Z,NYI,2,NYR,3,2,6,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020762,20192020,2020-01-22T00:00:00Z,NYI,2,NYR,3,4,2,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020520,20192020,2019-12-17T00:00:00Z,NSH,18,NYR,3,5,2,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020274,20192020,2019-11-13T00:30:00Z,PIT,5,NYR,3,2,3,home win OT,right,Madison Square Garden,-5,America/New_York
+2019021011,20192020,2020-03-01T17:00:00Z,PHI,4,NYR,3,5,3,away win REG,right,Madison Square Garden,-5,America/New_York
+2019020666,20192020,2020-01-08T00:30:00Z,COL,21,NYR,3,3,5,home win REG,right,Madison Square Garden,-5,America/New_York
+2019020225,20192020,2019-11-06T00:00:00Z,OTT,9,NYI,2,1,4,home win REG,left,Barclays Center,-5,America/New_York
+2019020014,20192020,2019-10-04T23:00:00Z,WSH,15,NYI,2,2,1,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020743,20192020,2020-01-18T18:00:00Z,WSH,15,NYI,2,6,4,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020793,20192020,2020-02-01T18:00:00Z,VAN,23,NYI,2,4,3,away win OT,left,Barclays Center,-5,America/New_York
+2019020962,20192020,2020-02-23T22:00:00Z,SJS,28,NYI,2,1,4,home win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020067,20192020,2019-10-12T23:00:00Z,FLA,13,NYI,2,2,3,home win OT,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020252,20192020,2019-11-09T18:00:00Z,FLA,13,NYI,2,1,2,home win REG,left,Barclays Center,-5,America/New_York
+2019020033,20192020,2019-10-06T23:00:00Z,WPG,52,NYI,2,1,4,home win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020502,20192020,2019-12-14T18:00:00Z,BUF,7,NYI,2,2,3,home win OT,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019021020,20192020,2020-03-04T00:00:00Z,MTL,8,NYI,2,6,2,away win REG,left,Barclays Center,-5,America/New_York
+2019020694,20192020,2020-01-12T00:00:00Z,BOS,6,NYI,2,3,2,away win OT,left,Barclays Center,-5,America/New_York
+2019020999,20192020,2020-02-29T18:00:00Z,BOS,6,NYI,2,4,0,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020146,20192020,2019-10-24T23:00:00Z,ARI,53,NYI,2,2,4,home win REG,left,NYCB Live/Nassau Coliseum,-4,America/New_York
+2019020282,20192020,2019-11-14T00:00:00Z,TOR,10,NYI,2,4,5,home win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020441,20192020,2019-12-06T00:00:00Z,VGK,54,NYI,2,2,3,home win OT,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020630,20192020,2020-01-03T00:00:00Z,NJD,1,NYI,2,2,1,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020730,20192020,2020-01-17T00:00:00Z,NYR,3,NYI,2,3,2,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020971,20192020,2020-02-26T00:00:00Z,NYR,3,NYI,2,4,3,away win OT,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020197,20192020,2019-11-01T23:00:00Z,TBL,14,NYI,2,2,5,home win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020409,20192020,2019-12-01T00:00:00Z,CBJ,29,NYI,2,0,2,home win REG,left,Barclays Center,-5,America/New_York
+2019020573,20192020,2019-12-24T00:00:00Z,CBJ,29,NYI,2,3,2,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019021049,20192020,2020-03-07T18:00:00Z,CAR,12,NYI,2,3,2,away win OT,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020816,20192020,2020-02-05T00:00:00Z,DAL,25,NYI,2,3,4,home win OT,left,Barclays Center,-5,America/New_York
+2019020717,20192020,2020-01-15T00:00:00Z,DET,17,NYI,2,2,8,home win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020941,20192020,2020-02-22T01:00:00Z,DET,17,NYI,2,1,4,home win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020831,20192020,2020-02-07T00:00:00Z,LAK,26,NYI,2,3,5,home win REG,left,Barclays Center,-5,America/New_York
+2019020081,20192020,2019-10-14T17:00:00Z,STL,19,NYI,2,2,3,home win OT,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020037,20192020,2019-10-08T23:00:00Z,EDM,22,NYI,2,5,2,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020553,20192020,2019-12-21T18:00:00Z,ANA,24,NYI,2,6,5,away win OT,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020527,20192020,2019-12-18T00:00:00Z,NSH,18,NYI,2,8,3,away win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020239,20192020,2019-11-08T00:00:00Z,PIT,5,NYI,2,4,3,away win OT,left,Barclays Center,-5,America/New_York
+2019020335,20192020,2019-11-22T00:00:00Z,PIT,5,NYI,2,3,4,home win OT,left,Barclays Center,-5,America/New_York
+2019020173,20192020,2019-10-27T23:00:00Z,PHI,4,NYI,2,3,5,home win REG,left,NYCB Live/Nassau Coliseum,-4,America/New_York
+2019020869,20192020,2020-02-12T00:00:00Z,PHI,4,NYI,2,3,5,home win REG,left,Barclays Center,-5,America/New_York
+2019020661,20192020,2020-01-07T00:00:00Z,COL,21,NYI,2,0,1,home win REG,left,NYCB Live/Nassau Coliseum,-5,America/New_York
+2019020271,20192020,2019-11-12T00:00:00Z,OTT,9,CAR,12,2,8,home win REG,right,PNC Arena,-5,America/New_York
+2019020597,20192020,2019-12-29T00:00:00Z,WSH,15,CAR,12,4,6,home win REG,right,PNC Arena,-5,America/New_York
+2019020639,20192020,2020-01-04T00:30:00Z,WSH,15,CAR,12,4,3,away win REG,right,PNC Arena,-5,America/New_York
+2019020808,20192020,2020-02-02T19:00:00Z,VAN,23,CAR,12,3,4,home win OT,right,PNC Arena,-5,America/New_York
+2019020443,20192020,2019-12-06T00:00:00Z,SJS,28,CAR,12,2,3,home win OT,right,PNC Arena,-5,America/New_York
+2019020355,20192020,2019-11-24T00:00:00Z,FLA,13,CAR,12,2,4,home win REG,right,PNC Arena,-5,America/New_York
+2019020559,20192020,2019-12-22T00:00:00Z,FLA,13,CAR,12,4,2,away win REG,right,PNC Arena,-5,America/New_York
+2019020764,20192020,2020-01-22T00:00:00Z,WPG,52,CAR,12,1,4,home win REG,right,PNC Arena,-5,America/New_York
+2019020008,20192020,2019-10-03T23:00:00Z,MTL,8,CAR,12,3,4,home win OT,right,PNC Arena,-5,America/New_York
+2019020618,20192020,2020-01-01T00:00:00Z,MTL,8,CAR,12,1,3,home win REG,right,PNC Arena,-5,America/New_York
+2019020458,20192020,2019-12-08T00:00:00Z,MIN,30,CAR,12,2,6,home win REG,right,PNC Arena,-5,America/New_York
+2019020183,20192020,2019-10-29T23:00:00Z,CGY,20,CAR,12,1,2,home win REG,right,PNC Arena,-4,America/New_York
+2019020690,20192020,2020-01-11T00:30:00Z,ARI,53,CAR,12,0,3,home win REG,right,PNC Arena,-5,America/New_York
+2019020161,20192020,2019-10-26T17:00:00Z,CHI,16,CAR,12,0,4,home win REG,right,PNC Arena,-4,America/New_York
+2019020788,20192020,2020-02-01T00:30:00Z,VGK,54,CAR,12,4,3,away win REG,right,PNC Arena,-5,America/New_York
+2019020210,20192020,2019-11-02T23:00:00Z,NJD,1,CAR,12,5,3,away win REG,right,PNC Arena,-5,America/New_York
+2019020894,20192020,2020-02-15T00:00:00Z,NJD,1,CAR,12,2,5,home win REG,right,PNC Arena,-5,America/New_York
+2019020241,20192020,2019-11-08T00:00:00Z,NYR,3,CAR,12,4,2,away win REG,right,PNC Arena,-5,America/New_York
+2019020942,20192020,2020-02-22T00:00:00Z,NYR,3,CAR,12,5,2,away win REG,right,PNC Arena,-5,America/New_York
+2019020031,20192020,2019-10-06T21:00:00Z,TBL,14,CAR,12,3,4,home win OT,right,PNC Arena,-5,America/New_York
+2019020655,20192020,2020-01-05T22:00:00Z,TBL,14,CAR,12,3,1,away win REG,right,PNC Arena,-5,America/New_York
+2019020068,20192020,2019-10-12T23:00:00Z,CBJ,29,CAR,12,3,2,away win REG,right,PNC Arena,-5,America/New_York
+2019020974,20192020,2020-02-26T00:00:00Z,DAL,25,CAR,12,4,1,away win REG,right,PNC Arena,-5,America/New_York
+2019020199,20192020,2019-11-01T23:30:00Z,DET,17,CAR,12,3,7,home win REG,right,PNC Arena,-5,America/New_York
+2019020697,20192020,2020-01-12T00:00:00Z,LAK,26,CAR,12,0,2,home win REG,right,PNC Arena,-5,America/New_York
+2019020908,20192020,2020-02-16T21:00:00Z,EDM,22,CAR,12,4,3,away win OT,right,PNC Arena,-5,America/New_York
+2019020741,20192020,2020-01-18T00:30:00Z,ANA,24,CAR,12,2,1,away win OT,right,PNC Arena,-5,America/New_York
+2019020060,20192020,2019-10-11T23:30:00Z,NYI,2,CAR,12,2,5,home win REG,right,PNC Arena,-5,America/New_York
+2019020756,20192020,2020-01-19T22:00:00Z,NYI,2,CAR,12,1,2,home win OT,right,PNC Arena,-5,America/New_York
+2019020401,20192020,2019-11-30T00:30:00Z,NSH,18,CAR,12,3,0,away win REG,right,PNC Arena,-5,America/New_York
+2019020336,20192020,2019-11-22T00:00:00Z,PHI,4,CAR,12,5,3,away win REG,right,PNC Arena,-5,America/New_York
+2019020668,20192020,2020-01-08T00:00:00Z,PHI,4,CAR,12,4,5,home win OT,right,PNC Arena,-5,America/New_York
+2019020996,20192020,2020-02-29T00:00:00Z,COL,21,CAR,12,3,2,away win REG,right,PNC Arena,-5,America/New_York
+2019020281,20192020,2019-11-14T00:00:00Z,OTT,9,NJD,1,4,2,away win REG,left,Prudential Center,-5,America/New_York
+2019020549,20192020,2019-12-21T00:00:00Z,WSH,15,NJD,1,6,3,away win REG,left,Prudential Center,-5,America/New_York
+2019020948,20192020,2020-02-22T18:00:00Z,WSH,15,NJD,1,2,3,home win REG,left,Prudential Center,-5,America/New_York
+2019020113,20192020,2019-10-19T17:00:00Z,VAN,23,NJD,1,0,1,home win REG,left,Prudential Center,-4,America/New_York
+2019020934,20192020,2020-02-21T00:00:00Z,SJS,28,NJD,1,1,2,home win REG,left,Prudential Center,-5,America/New_York
+2019020080,20192020,2019-10-14T17:00:00Z,FLA,13,NJD,1,6,4,away win REG,left,Prudential Center,-5,America/New_York
+2019020868,20192020,2020-02-12T00:00:00Z,FLA,13,NJD,1,5,3,away win REG,left,Prudential Center,-5,America/New_York
+2019020013,20192020,2019-10-04T23:00:00Z,WPG,52,NJD,1,5,4,away win OT,left,Prudential Center,-5,America/New_York
+2019020815,20192020,2020-02-05T00:00:00Z,MTL,8,NJD,1,5,4,away win OT,left,Prudential Center,-5,America/New_York
+2019020375,20192020,2019-11-27T00:00:00Z,MIN,30,NJD,1,3,2,away win REG,left,Prudential Center,-5,America/New_York
+2019020320,20192020,2019-11-20T00:00:00Z,BOS,6,NJD,1,5,1,away win REG,left,Prudential Center,-5,America/New_York
+2019020613,20192020,2019-12-31T18:00:00Z,BOS,6,NJD,1,2,3,home win OT,left,Prudential Center,-5,America/New_York
+2019020157,20192020,2019-10-25T23:00:00Z,ARI,53,NJD,1,5,3,away win REG,left,Prudential Center,-4,America/New_York
+2019020447,20192020,2019-12-07T00:00:00Z,CHI,16,NJD,1,2,1,away win OT,left,Prudential Center,-5,America/New_York
+2019020583,20192020,2019-12-28T00:00:00Z,TOR,10,NJD,1,5,4,away win OT,left,Prudential Center,-5,America/New_York
+2019020427,20192020,2019-12-04T00:00:00Z,VGK,54,NJD,1,4,3,away win REG,left,Prudential Center,-5,America/New_York
+2019020100,20192020,2019-10-17T23:00:00Z,NYR,3,NJD,1,2,5,home win REG,left,Prudential Center,-4,America/New_York
+2019020403,20192020,2019-11-30T18:00:00Z,NYR,3,NJD,1,4,0,away win REG,left,Prudential Center,-5,America/New_York
+2019020188,20192020,2019-10-30T23:00:00Z,TBL,14,NJD,1,7,6,away win OT,left,Prudential Center,-5,America/New_York
+2019020708,20192020,2020-01-13T00:00:00Z,TBL,14,NJD,1,1,3,home win REG,left,Prudential Center,-5,America/New_York
+2019020911,20192020,2020-02-16T23:00:00Z,CBJ,29,NJD,1,3,4,home win OT,left,Prudential Center,-5,America/New_York
+2019020797,20192020,2020-02-02T00:00:00Z,DAL,25,NJD,1,3,2,away win OT,left,Prudential Center,-5,America/New_York
+2019020354,20192020,2019-11-24T00:00:00Z,DET,17,NJD,1,1,5,home win REG,left,Prudential Center,-5,America/New_York
+2019020884,20192020,2020-02-14T00:00:00Z,DET,17,NJD,1,1,4,home win REG,left,Prudential Center,-5,America/New_York
+2019020848,20192020,2020-02-09T00:00:00Z,LAK,26,NJD,1,0,3,home win REG,left,Prudential Center,-5,America/New_York
+2019021043,20192020,2020-03-07T00:00:00Z,STL,19,NJD,1,2,4,home win REG,left,Prudential Center,-5,America/New_York
+2019020049,20192020,2019-10-10T23:00:00Z,EDM,22,NJD,1,4,3,away win OT,left,Prudential Center,-5,America/New_York
+2019020535,20192020,2019-12-19T00:00:00Z,ANA,24,NJD,1,1,3,home win REG,left,Prudential Center,-5,America/New_York
+2019020665,20192020,2020-01-08T00:00:00Z,NYI,2,NJD,1,4,3,away win OT,left,Prudential Center,-5,America/New_York
+2019020783,20192020,2020-01-31T00:30:00Z,NSH,18,NJD,1,6,5,away win OT,left,Prudential Center,-5,America/New_York
+2019020295,20192020,2019-11-16T00:00:00Z,PIT,5,NJD,1,1,2,home win REG,left,Prudential Center,-5,America/New_York
+2019021072,20192020,2020-03-10T23:00:00Z,PIT,5,NJD,1,5,2,away win REG,left,Prudential Center,-5,America/New_York
+2019020196,20192020,2019-11-01T23:00:00Z,PHI,4,NJD,1,4,3,away win OT,left,Prudential Center,-5,America/New_York
+2019020649,20192020,2020-01-05T00:00:00Z,COL,21,NJD,1,5,2,away win REG,left,Prudential Center,-5,America/New_York
+2019020304,20192020,2019-11-17T00:00:00Z,OTT,9,BUF,7,2,4,home win REG,left,KeyBank Center,-5,America/New_York
+2019020774,20192020,2020-01-29T00:00:00Z,OTT,9,BUF,7,5,2,away win REG,left,KeyBank Center,-5,America/New_York
+2019021066,20192020,2020-03-09T23:00:00Z,WSH,15,BUF,7,2,3,home win OT,left,KeyBank Center,-4,America/New_York
+2019020692,20192020,2020-01-11T18:00:00Z,VAN,23,BUF,7,6,3,away win REG,left,KeyBank Center,-5,America/New_York
+2019020134,20192020,2019-10-22T23:00:00Z,SJS,28,BUF,7,3,4,home win OT,left,KeyBank Center,-4,America/New_York
+2019020058,20192020,2019-10-11T23:00:00Z,FLA,13,BUF,7,2,3,home win OT,left,KeyBank Center,-5,America/New_York
+2019020645,20192020,2020-01-04T18:00:00Z,FLA,13,BUF,7,2,3,home win REG,left,KeyBank Center,-5,America/New_York
+2019020960,20192020,2020-02-23T20:00:00Z,WPG,52,BUF,7,1,2,home win REG,left,KeyBank Center,-5,America/New_York
+2019020044,20192020,2019-10-09T23:00:00Z,MTL,8,BUF,7,4,5,home win OT,left,KeyBank Center,-5,America/New_York
+2019020782,20192020,2020-01-31T00:00:00Z,MTL,8,BUF,7,3,1,away win REG,left,KeyBank Center,-5,America/New_York
+2019020318,20192020,2019-11-20T00:00:00Z,MIN,30,BUF,7,4,1,away win REG,left,KeyBank Center,-5,America/New_York
+2019020582,20192020,2019-12-28T00:00:00Z,BOS,6,BUF,7,3,0,away win REG,left,KeyBank Center,-5,America/New_York
+2019020377,20192020,2019-11-28T00:00:00Z,CGY,20,BUF,7,3,2,away win OT,left,KeyBank Center,-5,America/New_York
+2019020177,20192020,2019-10-28T23:00:00Z,ARI,53,BUF,7,3,2,away win OT,left,KeyBank Center,-4,America/New_York
+2019020392,20192020,2019-11-29T21:00:00Z,TOR,10,BUF,7,4,6,home win REG,left,KeyBank Center,-5,America/New_York
+2019020913,20192020,2020-02-17T00:00:00Z,TOR,10,BUF,7,2,5,home win REG,left,KeyBank Center,-5,America/New_York
+2019020714,20192020,2020-01-15T00:00:00Z,VGK,54,BUF,7,2,4,home win REG,left,KeyBank Center,-5,America/New_York
+2019020018,20192020,2019-10-05T23:00:00Z,NJD,1,BUF,7,2,7,home win REG,left,KeyBank Center,-5,America/New_York
+2019020419,20192020,2019-12-03T00:00:00Z,NJD,1,BUF,7,1,7,home win REG,left,KeyBank Center,-5,America/New_York
+2019020249,20192020,2019-11-08T19:00:00Z,TBL,14,BUF,7,3,2,away win REG,left,Ericsson Globe,-5,America/New_York
+2019020617,20192020,2020-01-01T00:00:00Z,TBL,14,BUF,7,6,4,away win REG,left,KeyBank Center,-5,America/New_York
+2019020792,20192020,2020-02-01T18:00:00Z,CBJ,29,BUF,7,1,2,home win OT,left,KeyBank Center,-5,America/New_York
+2019020880,20192020,2020-02-14T00:00:00Z,CBJ,29,BUF,7,3,4,home win OT,left,KeyBank Center,-5,America/New_York
+2019020286,20192020,2019-11-15T00:00:00Z,CAR,12,BUF,7,5,4,away win OT,left,KeyBank Center,-5,America/New_York
+2019020082,20192020,2019-10-14T19:00:00Z,DAL,25,BUF,7,0,4,home win REG,left,KeyBank Center,-5,America/New_York
+2019020827,20192020,2020-02-07T00:00:00Z,DET,17,BUF,7,4,3,away win OT,left,KeyBank Center,-5,America/New_York
+2019020866,20192020,2020-02-12T00:00:00Z,DET,17,BUF,7,2,3,home win REG,left,KeyBank Center,-5,America/New_York
+2019020552,20192020,2019-12-21T18:00:00Z,LAK,26,BUF,7,2,3,home win REG,left,KeyBank Center,-5,America/New_York
+2019020472,20192020,2019-12-11T00:30:00Z,STL,19,BUF,7,2,5,home win REG,left,KeyBank Center,-5,America/New_York
+2019020628,20192020,2020-01-03T00:00:00Z,EDM,22,BUF,7,2,3,home win OT,left,KeyBank Center,-5,America/New_York
+2019020856,20192020,2020-02-09T20:00:00Z,ANA,24,BUF,7,3,2,away win REG,left,KeyBank Center,-5,America/New_York
+2019020207,20192020,2019-11-02T23:00:00Z,NYI,2,BUF,7,1,0,away win REG,left,KeyBank Center,-5,America/New_York
+2019020487,20192020,2019-12-13T00:00:00Z,NSH,18,BUF,7,3,4,home win REG,left,KeyBank Center,-5,America/New_York
+2019021033,20192020,2020-03-06T00:00:00Z,PIT,5,BUF,7,4,2,away win REG,left,KeyBank Center,-5,America/New_York
+2019020813,20192020,2020-02-05T00:00:00Z,COL,21,BUF,7,6,1,away win REG,left,KeyBank Center,-5,America/New_York
+2019020323,20192020,2019-11-20T00:30:00Z,OTT,9,DET,17,4,3,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020689,20192020,2020-01-11T00:30:00Z,OTT,9,DET,17,2,3,home win OT,right,Little Caesars Arena,-5,America/Detroit
+2019020406,20192020,2019-12-01T00:00:00Z,WSH,15,DET,17,5,2,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020137,20192020,2019-10-22T23:30:00Z,VAN,23,DET,17,5,2,away win REG,right,Little Caesars Arena,-4,America/Detroit
+2019020620,20192020,2020-01-01T00:30:00Z,SJS,28,DET,17,0,2,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020749,20192020,2020-01-19T00:00:00Z,FLA,13,DET,17,4,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020491,20192020,2019-12-13T00:30:00Z,WPG,52,DET,17,2,5,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020159,20192020,2019-10-25T23:30:00Z,BUF,7,DET,17,2,0,away win REG,right,Little Caesars Arena,-4,America/Detroit
+2019020705,20192020,2020-01-12T22:00:00Z,BUF,7,DET,17,5,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020669,20192020,2020-01-08T00:30:00Z,MTL,8,DET,17,3,4,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020923,20192020,2020-02-19T00:30:00Z,MTL,8,DET,17,3,4,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020989,20192020,2020-02-28T00:30:00Z,MIN,30,DET,17,7,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020248,20192020,2019-11-09T00:30:00Z,BOS,6,DET,17,2,4,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020855,20192020,2020-02-09T17:30:00Z,BOS,6,DET,17,1,3,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020963,20192020,2020-02-24T00:00:00Z,CGY,20,DET,17,4,2,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020566,20192020,2019-12-23T00:00:00Z,ARI,53,DET,17,5,2,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019021044,20192020,2020-03-07T00:30:00Z,CHI,16,DET,17,1,2,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020066,20192020,2019-10-12T23:00:00Z,TOR,10,DET,17,5,2,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020379,20192020,2019-11-28T00:00:00Z,TOR,10,DET,17,6,0,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020266,20192020,2019-11-10T22:00:00Z,VGK,54,DET,17,2,3,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020975,20192020,2020-02-26T00:30:00Z,NJD,1,DET,17,4,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020796,20192020,2020-02-02T00:00:00Z,NYR,3,DET,17,1,0,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019021060,20192020,2020-03-08T21:00:00Z,TBL,14,DET,17,4,5,home win OT,right,Little Caesars Arena,-5,America/Detroit
+2019020529,20192020,2019-12-18T00:30:00Z,CBJ,29,DET,17,5,3,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020363,20192020,2019-11-25T00:00:00Z,CAR,12,DET,17,2,0,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019021074,20192020,2020-03-10T23:30:00Z,CAR,12,DET,17,5,2,away win REG,right,Little Caesars Arena,-4,America/Detroit
+2019020032,20192020,2019-10-06T23:00:00Z,DAL,25,DET,17,3,4,home win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020516,20192020,2019-12-16T00:00:00Z,LAK,26,DET,17,4,2,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020171,20192020,2019-10-27T21:00:00Z,STL,19,DET,17,5,4,away win OT,right,Little Caesars Arena,-4,America/Detroit
+2019020184,20192020,2019-10-29T23:30:00Z,EDM,22,DET,17,1,3,home win REG,right,Little Caesars Arena,-4,America/Detroit
+2019020040,20192020,2019-10-08T23:30:00Z,ANA,24,DET,17,3,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020421,20192020,2019-12-03T00:30:00Z,NYI,2,DET,17,4,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020222,20192020,2019-11-05T00:30:00Z,NSH,18,DET,17,6,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020455,20192020,2019-12-08T00:00:00Z,PIT,5,DET,17,5,3,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020740,20192020,2020-01-18T00:30:00Z,PIT,5,DET,17,2,1,away win OT,right,Little Caesars Arena,-5,America/Detroit
+2019020811,20192020,2020-02-04T00:30:00Z,PHI,4,DET,17,3,0,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019021017,20192020,2020-03-03T00:30:00Z,COL,21,DET,17,2,1,away win REG,right,Little Caesars Arena,-5,America/Detroit
+2019020331,20192020,2019-11-21T00:30:00Z,OTT,9,MTL,8,2,1,away win OT,right,Centre Bell,-5,America/Montreal
+2019020485,20192020,2019-12-12T00:30:00Z,OTT,9,MTL,8,2,3,home win OT,right,Centre Bell,-5,America/Montreal
+2019020768,20192020,2020-01-28T00:00:00Z,WSH,15,MTL,8,4,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020969,20192020,2020-02-26T00:00:00Z,VAN,23,MTL,8,4,3,away win OT,right,Centre Bell,-5,America/Montreal
+2019020145,20192020,2019-10-24T23:00:00Z,SJS,28,MTL,8,4,2,away win REG,right,Centre Bell,-4,America/Montreal
+2019020794,20192020,2020-02-01T19:00:00Z,FLA,13,MTL,8,0,4,home win REG,right,Centre Bell,-5,America/Montreal
+2019020660,20192020,2020-01-07T00:00:00Z,WPG,52,MTL,8,3,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020099,20192020,2019-10-17T23:00:00Z,MIN,30,MTL,8,0,4,home win REG,right,Centre Bell,-4,America/Montreal
+2019020224,20192020,2019-11-06T00:30:00Z,BOS,6,MTL,8,4,5,home win REG,right,Centre Bell,-5,America/Montreal
+2019020374,20192020,2019-11-27T00:00:00Z,BOS,6,MTL,8,8,1,away win REG,right,Centre Bell,-5,America/Montreal
+2019020709,20192020,2020-01-14T00:00:00Z,CGY,20,MTL,8,0,2,home win REG,right,Centre Bell,-5,America/Montreal
+2019020860,20192020,2020-02-11T00:00:00Z,ARI,53,MTL,8,3,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020725,20192020,2020-01-16T00:30:00Z,CHI,16,MTL,8,4,1,away win REG,right,Centre Bell,-5,America/Montreal
+2019020163,20192020,2019-10-26T23:00:00Z,TOR,10,MTL,8,2,5,home win REG,right,Centre Bell,-4,America/Montreal
+2019020845,20192020,2020-02-09T00:00:00Z,TOR,10,MTL,8,1,2,home win OT,right,Centre Bell,-5,America/Montreal
+2019020748,20192020,2020-01-19T00:00:00Z,VGK,54,MTL,8,4,5,home win OT,right,Centre Bell,-5,America/Montreal
+2019020305,20192020,2019-11-17T00:00:00Z,NJD,1,MTL,8,4,3,away win OT,right,Centre Bell,-5,America/Montreal
+2019020390,20192020,2019-11-29T00:30:00Z,NJD,1,MTL,8,6,4,away win REG,right,Centre Bell,-5,America/Montreal
+2019020352,20192020,2019-11-24T00:00:00Z,NYR,3,MTL,8,6,5,away win REG,right,Centre Bell,-5,America/Montreal
+2019020985,20192020,2020-02-28T00:00:00Z,NYR,3,MTL,8,5,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020086,20192020,2019-10-15T23:00:00Z,TBL,14,MTL,8,3,1,away win REG,right,Centre Bell,-5,America/Montreal
+2019020629,20192020,2020-01-03T00:00:00Z,TBL,14,MTL,8,2,1,away win REG,right,Centre Bell,-5,America/Montreal
+2019020273,20192020,2019-11-13T00:00:00Z,CBJ,29,MTL,8,2,3,home win OT,right,Centre Bell,-5,America/Montreal
+2019020807,20192020,2020-02-02T19:00:00Z,CBJ,29,MTL,8,4,3,away win REG,right,Centre Bell,-5,America/Montreal
+2019021004,20192020,2020-03-01T00:00:00Z,CAR,12,MTL,8,3,4,home win OT,right,Centre Bell,-5,America/Montreal
+2019020900,20192020,2020-02-16T00:00:00Z,DAL,25,MTL,8,4,3,away win OT,right,Centre Bell,-5,America/Montreal
+2019020048,20192020,2019-10-10T23:00:00Z,DET,17,MTL,8,4,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020506,20192020,2019-12-15T00:00:00Z,DET,17,MTL,8,2,1,away win REG,right,Centre Bell,-5,America/Montreal
+2019020254,20192020,2019-11-10T00:00:00Z,LAK,26,MTL,8,2,3,home win REG,right,Centre Bell,-5,America/Montreal
+2019020065,20192020,2019-10-12T23:00:00Z,STL,19,MTL,8,3,6,home win REG,right,Centre Bell,-5,America/Montreal
+2019020679,20192020,2020-01-10T00:00:00Z,EDM,22,MTL,8,4,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020828,20192020,2020-02-07T00:00:00Z,ANA,24,MTL,8,2,3,home win OT,right,Centre Bell,-5,America/Montreal
+2019020425,20192020,2019-12-04T00:00:00Z,NYI,2,MTL,8,2,4,home win REG,right,Centre Bell,-5,America/Montreal
+2019021071,20192020,2020-03-10T23:00:00Z,NSH,18,MTL,8,4,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020647,20192020,2020-01-05T00:00:00Z,PIT,5,MTL,8,3,2,away win OT,right,Centre Bell,-5,America/Montreal
+2019020404,20192020,2019-11-30T20:00:00Z,PHI,4,MTL,8,4,3,away win OT,right,Centre Bell,-5,America/Montreal
+2019020439,20192020,2019-12-06T00:00:00Z,COL,21,MTL,8,3,2,away win REG,right,Centre Bell,-5,America/Montreal
+2019020369,20192020,2019-11-26T00:00:00Z,OTT,9,CBJ,29,0,1,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020967,20192020,2020-02-25T00:00:00Z,OTT,9,CBJ,29,3,4,home win OT,left,Nationwide Arena,-5,America/New_York
+2019020521,20192020,2019-12-17T00:00:00Z,WSH,15,CBJ,29,0,3,home win REG,left,Nationwide Arena,-5,America/New_York
+2019021013,20192020,2020-03-02T00:00:00Z,VAN,23,CBJ,29,3,5,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020642,20192020,2020-01-04T18:00:00Z,SJS,28,CBJ,29,3,2,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020619,20192020,2020-01-01T00:00:00Z,FLA,13,CBJ,29,1,4,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020818,20192020,2020-02-05T00:00:00Z,FLA,13,CBJ,29,0,1,home win OT,left,Nationwide Arena,-5,America/New_York
+2019020766,20192020,2020-01-23T00:30:00Z,WPG,52,CBJ,29,3,4,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020035,20192020,2019-10-07T23:00:00Z,BUF,7,CBJ,29,3,4,home win OT,left,Nationwide Arena,-5,America/New_York
+2019020322,20192020,2019-11-20T00:00:00Z,MTL,8,CBJ,29,2,5,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020995,20192020,2020-02-29T00:00:00Z,MIN,30,CBJ,29,5,0,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020719,20192020,2020-01-15T00:00:00Z,BOS,6,CBJ,29,0,3,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020211,20192020,2019-11-02T23:00:00Z,CGY,20,CBJ,29,3,0,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020429,20192020,2019-12-04T00:00:00Z,ARI,53,CBJ,29,4,2,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020604,20192020,2019-12-29T22:00:00Z,CHI,16,CBJ,29,3,2,away win OT,left,Nationwide Arena,-5,America/New_York
+2019020015,20192020,2019-10-04T23:00:00Z,TOR,10,CBJ,29,4,1,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020227,20192020,2019-11-06T00:00:00Z,VGK,54,CBJ,29,2,1,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020560,20192020,2019-12-22T00:00:00Z,NJD,1,CBJ,29,1,5,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020751,20192020,2020-01-19T00:00:00Z,NJD,1,CBJ,29,0,5,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020444,20192020,2019-12-06T00:00:00Z,NYR,3,CBJ,29,3,2,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020892,20192020,2020-02-15T00:00:00Z,NYR,3,CBJ,29,3,1,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020863,20192020,2020-02-11T00:30:00Z,TBL,14,CBJ,29,2,1,away win OT,left,Nationwide Arena,-5,America/New_York
+2019020148,20192020,2019-10-24T23:00:00Z,CAR,12,CBJ,29,3,4,home win OT,left,Nationwide Arena,-4,America/New_York
+2019020733,20192020,2020-01-17T00:00:00Z,CAR,12,CBJ,29,2,3,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020094,20192020,2019-10-16T23:00:00Z,DAL,25,CBJ,29,2,3,home win REG,left,Nationwide Arena,-4,America/New_York
+2019020337,20192020,2019-11-22T00:00:00Z,DET,17,CBJ,29,4,5,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020841,20192020,2020-02-08T00:00:00Z,DET,17,CBJ,29,0,2,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020541,20192020,2019-12-20T00:00:00Z,LAK,26,CBJ,29,2,3,home win OT,left,Nationwide Arena,-5,America/New_York
+2019020297,20192020,2019-11-16T00:00:00Z,STL,19,CBJ,29,2,3,home win OT,left,Nationwide Arena,-5,America/New_York
+2019020189,20192020,2019-10-30T23:30:00Z,EDM,22,CBJ,29,4,1,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020059,20192020,2019-10-11T23:00:00Z,ANA,24,CBJ,29,2,1,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020119,20192020,2019-10-19T23:00:00Z,NYI,2,CBJ,29,3,2,away win OT,left,Nationwide Arena,-4,America/New_York
+2019020400,20192020,2019-11-30T00:00:00Z,PIT,5,CBJ,29,2,5,home win REG,left,Nationwide Arena,-5,America/New_York
+2019020384,20192020,2019-11-28T00:00:00Z,PHI,4,CBJ,29,3,2,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020936,20192020,2020-02-21T00:00:00Z,PHI,4,CBJ,29,4,3,away win OT,left,Nationwide Arena,-5,America/New_York
+2019020850,20192020,2020-02-09T00:00:00Z,COL,21,CBJ,29,2,1,away win REG,left,Nationwide Arena,-5,America/New_York
+2019020395,20192020,2019-11-29T21:00:00Z,OTT,9,MIN,30,2,7,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019021014,20192020,2020-03-02T01:00:00Z,WSH,15,MIN,30,4,3,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020704,20192020,2020-01-12T21:00:00Z,VAN,23,MIN,30,4,1,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020835,20192020,2020-02-07T01:00:00Z,VAN,23,MIN,30,2,4,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020899,20192020,2020-02-15T22:00:00Z,SJS,28,MIN,30,2,0,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020760,20192020,2020-01-21T01:00:00Z,FLA,13,MIN,30,5,4,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020554,20192020,2019-12-21T19:00:00Z,WPG,52,MIN,30,6,0,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020643,20192020,2020-01-04T19:00:00Z,WPG,52,MIN,30,2,3,home win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020125,20192020,2019-10-20T21:00:00Z,MTL,8,MIN,30,3,4,home win REG,right,Xcel Energy Center,-5,America/Chicago
+2019020801,20192020,2020-02-02T01:00:00Z,BOS,6,MIN,30,6,1,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020570,20192020,2019-12-23T22:00:00Z,CGY,20,MIN,30,0,3,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020656,20192020,2020-01-06T00:00:00Z,CGY,20,MIN,30,5,4,away win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020289,20192020,2019-11-15T01:00:00Z,ARI,53,MIN,30,2,3,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020821,20192020,2020-02-05T01:00:00Z,CHI,16,MIN,30,2,3,home win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020616,20192020,2019-12-31T23:00:00Z,TOR,10,MIN,30,4,1,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020871,20192020,2020-02-12T01:00:00Z,VGK,54,MIN,30,0,4,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020887,20192020,2020-02-14T01:00:00Z,NYR,3,MIN,30,4,3,away win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020736,20192020,2020-01-17T01:00:00Z,TBL,14,MIN,30,2,3,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020978,20192020,2020-02-26T01:00:00Z,CBJ,29,MIN,30,4,5,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020299,20192020,2019-11-16T19:00:00Z,CAR,12,MIN,30,4,3,away win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020416,20192020,2019-12-01T20:00:00Z,DAL,25,MIN,30,2,3,home win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020753,20192020,2020-01-19T02:00:00Z,DAL,25,MIN,30,0,7,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020767,20192020,2020-01-23T01:00:00Z,DET,17,MIN,30,2,4,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020167,20192020,2019-10-27T00:00:00Z,LAK,26,MIN,30,1,5,home win REG,right,Xcel Energy Center,-5,America/Chicago
+2019020213,20192020,2019-11-03T00:00:00Z,STL,19,MIN,30,4,3,away win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020964,20192020,2020-02-24T00:30:00Z,STL,19,MIN,30,4,1,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020139,20192020,2019-10-23T00:00:00Z,EDM,22,MIN,30,0,3,home win REG,right,Xcel Energy Center,-5,America/Chicago
+2019020493,20192020,2019-12-13T01:00:00Z,EDM,22,MIN,30,5,6,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020476,20192020,2019-12-11T01:00:00Z,ANA,24,MIN,30,3,2,away win OT,right,Xcel Energy Center,-6,America/Chicago
+2019020605,20192020,2019-12-29T23:00:00Z,NYI,2,MIN,30,3,1,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019021023,20192020,2020-03-04T01:00:00Z,NSH,18,MIN,30,1,3,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020071,20192020,2019-10-13T00:30:00Z,PIT,5,MIN,30,7,4,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020510,20192020,2019-12-15T00:00:00Z,PHI,4,MIN,30,1,4,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020340,20192020,2019-11-22T01:00:00Z,COL,21,MIN,30,2,3,home win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020859,20192020,2020-02-10T00:30:00Z,COL,21,MIN,30,3,2,away win REG,right,Xcel Energy Center,-6,America/Chicago
+2019020410,20192020,2019-12-01T00:00:00Z,OTT,9,CGY,20,1,3,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020142,20192020,2019-10-23T01:00:00Z,WSH,15,CGY,20,5,3,away win REG,right,Scotiabank Saddledome,-6,America/Denver
+2019020028,20192020,2019-10-06T02:00:00Z,VAN,23,CGY,20,0,3,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020611,20192020,2019-12-30T02:30:00Z,VAN,23,CGY,20,5,2,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020823,20192020,2020-02-05T02:00:00Z,SJS,28,CGY,20,3,1,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020153,20192020,2019-10-25T01:00:00Z,FLA,13,CGY,20,5,6,home win OT,right,Scotiabank Saddledome,-6,America/Denver
+2019020446,20192020,2019-12-06T02:00:00Z,BUF,7,CGY,20,3,4,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020545,20192020,2019-12-20T02:00:00Z,MTL,8,CGY,20,4,3,away win OT,right,Scotiabank Saddledome,-7,America/Denver
+2019020685,20192020,2020-01-10T02:00:00Z,MIN,30,CGY,20,1,2,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020945,20192020,2020-02-22T02:00:00Z,BOS,6,CGY,20,4,3,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020231,20192020,2019-11-06T02:00:00Z,ARI,53,CGY,20,3,4,home win OT,right,Scotiabank Saddledome,-7,America/Denver
+2019021046,20192020,2020-03-07T02:00:00Z,ARI,53,CGY,20,2,3,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020622,20192020,2020-01-01T02:00:00Z,CHI,16,CGY,20,5,3,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020903,20192020,2020-02-16T03:00:00Z,CHI,16,CGY,20,8,4,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020494,20192020,2019-12-13T02:00:00Z,TOR,10,CGY,20,2,4,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019021062,20192020,2020-03-08T23:00:00Z,VGK,54,CGY,20,5,3,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020245,20192020,2019-11-08T02:00:00Z,NJD,1,CGY,20,2,5,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020635,20192020,2020-01-03T02:00:00Z,NYR,3,CGY,20,3,4,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019021030,20192020,2020-03-05T01:30:00Z,CBJ,29,CGY,20,2,3,home win OT,right,Scotiabank Saddledome,-7,America/Denver
+2019020503,20192020,2019-12-14T21:00:00Z,CAR,12,CGY,20,4,0,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020284,20192020,2019-11-14T02:30:00Z,DAL,25,CGY,20,3,1,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020103,20192020,2019-10-18T01:00:00Z,DET,17,CGY,20,1,5,home win REG,right,Scotiabank Saddledome,-6,America/Denver
+2019020042,20192020,2019-10-09T01:00:00Z,LAK,26,CGY,20,4,3,away win OT,right,Scotiabank Saddledome,-7,America/Denver
+2019020462,20192020,2019-12-08T03:00:00Z,LAK,26,CGY,20,3,4,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020261,20192020,2019-11-10T03:00:00Z,STL,19,CGY,20,3,2,away win OT,right,Scotiabank Saddledome,-7,America/Denver
+2019020775,20192020,2020-01-29T02:00:00Z,STL,19,CGY,20,5,4,away win OT,right,Scotiabank Saddledome,-7,America/Denver
+2019020700,20192020,2020-01-12T03:00:00Z,EDM,22,CGY,20,3,4,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020803,20192020,2020-02-02T03:00:00Z,EDM,22,CGY,20,8,3,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020915,20192020,2020-02-17T21:00:00Z,ANA,24,CGY,20,4,6,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020836,20192020,2020-02-07T02:00:00Z,NSH,18,CGY,20,3,2,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020531,20192020,2019-12-18T02:00:00Z,PIT,5,CGY,20,4,1,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020088,20192020,2019-10-16T01:00:00Z,PHI,4,CGY,20,1,3,home win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020328,20192020,2019-11-20T02:00:00Z,COL,21,CGY,20,3,2,away win REG,right,Scotiabank Saddledome,-7,America/Denver
+2019020432,20192020,2019-12-04T03:00:00Z,OTT,9,VAN,23,2,5,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020160,20192020,2019-10-26T02:00:00Z,WSH,15,VAN,23,6,5,away win OT,right,Rogers Arena,-7,America/Vancouver
+2019020754,20192020,2020-01-19T03:00:00Z,SJS,28,VAN,23,1,4,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020178,20192020,2019-10-29T02:00:00Z,FLA,13,VAN,23,2,7,home win REG,right,Rogers Arena,-7,America/Vancouver
+2019020453,20192020,2019-12-07T21:00:00Z,BUF,7,VAN,23,5,6,home win OT,right,Rogers Arena,-8,America/Vancouver
+2019020532,20192020,2019-12-18T03:00:00Z,MTL,8,VAN,23,3,1,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019020932,20192020,2020-02-20T03:30:00Z,MIN,30,VAN,23,4,3,away win OT,right,Rogers Arena,-8,America/Vancouver
+2019020956,20192020,2020-02-23T03:00:00Z,BOS,6,VAN,23,3,9,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020853,20192020,2020-02-09T03:00:00Z,CGY,20,VAN,23,6,2,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019020739,20192020,2020-01-17T03:00:00Z,ARI,53,VAN,23,1,3,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019021032,20192020,2020-03-05T03:30:00Z,ARI,53,VAN,23,4,2,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019020637,20192020,2020-01-03T03:00:00Z,CHI,16,VAN,23,5,7,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020879,20192020,2020-02-13T03:30:00Z,CHI,16,VAN,23,0,3,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020481,20192020,2019-12-11T03:00:00Z,TOR,10,VAN,23,4,1,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019020547,20192020,2019-12-20T03:00:00Z,VGK,54,VAN,23,4,5,home win OT,right,Rogers Arena,-8,America/Vancouver
+2019020265,20192020,2019-11-10T21:00:00Z,NJD,1,VAN,23,2,1,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019020651,20192020,2020-01-05T03:00:00Z,NYR,3,VAN,23,1,2,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019021064,20192020,2020-03-09T02:00:00Z,CBJ,29,VAN,23,2,1,away win REG,right,Rogers Arena,-7,America/Vancouver
+2019020496,20192020,2019-12-13T03:00:00Z,CAR,12,VAN,23,0,1,home win OT,right,Rogers Arena,-8,America/Vancouver
+2019020291,20192020,2019-11-15T03:00:00Z,DAL,25,VAN,23,4,2,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019020089,20192020,2019-10-16T02:00:00Z,DET,17,VAN,23,1,5,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020046,20192020,2019-10-10T02:00:00Z,LAK,26,VAN,23,2,8,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020599,20192020,2019-12-29T03:00:00Z,LAK,26,VAN,23,2,3,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020232,20192020,2019-11-06T03:00:00Z,STL,19,VAN,23,2,1,away win OT,right,Rogers Arena,-8,America/Vancouver
+2019020772,20192020,2020-01-28T03:00:00Z,STL,19,VAN,23,1,3,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020418,20192020,2019-12-02T03:00:00Z,EDM,22,VAN,23,3,2,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019020579,20192020,2019-12-24T03:00:00Z,EDM,22,VAN,23,2,4,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020909,20192020,2020-02-16T22:00:00Z,ANA,24,VAN,23,5,1,away win REG,right,Rogers Arena,-8,America/Vancouver
+2019021077,20192020,2020-03-11T02:00:00Z,NYI,2,VAN,23,4,5,home win OT,right,Rogers Arena,-8,America/Vancouver
+2019020277,20192020,2019-11-13T03:00:00Z,NSH,18,VAN,23,3,5,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020864,20192020,2020-02-11T03:00:00Z,NSH,18,VAN,23,2,6,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020563,20192020,2019-12-22T03:00:00Z,PIT,5,VAN,23,1,4,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020073,20192020,2019-10-13T02:00:00Z,PHI,4,VAN,23,2,3,home win OT,right,Rogers Arena,-8,America/Vancouver
+2019020311,20192020,2019-11-17T03:00:00Z,COL,21,VAN,23,5,4,away win OT,right,Rogers Arena,-8,America/Vancouver
+2019021047,20192020,2020-03-07T03:00:00Z,COL,21,VAN,23,3,6,home win REG,right,Rogers Arena,-8,America/Vancouver
+2019020436,20192020,2019-12-05T02:30:00Z,OTT,9,EDM,22,5,2,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020154,20192020,2019-10-25T01:00:00Z,WSH,15,EDM,22,3,4,home win OT,left,Rogers Place,-6,America/Edmonton
+2019020003,20192020,2019-10-03T02:00:00Z,VAN,23,EDM,22,2,3,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020414,20192020,2019-12-01T03:00:00Z,VAN,23,EDM,22,5,2,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020837,20192020,2020-02-07T02:30:00Z,SJS,28,EDM,22,6,3,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020170,20192020,2019-10-27T20:00:00Z,FLA,13,EDM,22,6,2,away win REG,left,Rogers Place,-6,America/Edmonton
+2019021009,20192020,2020-03-01T03:00:00Z,WPG,52,EDM,22,2,3,home win REG,left,Rogers Place,-7,America/Edmonton
+2019021080,20192020,2020-03-12T01:00:00Z,WPG,52,EDM,22,4,2,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020467,20192020,2019-12-09T01:00:00Z,BUF,7,EDM,22,3,2,away win OT,left,Rogers Place,-7,America/Edmonton
+2019020561,20192020,2019-12-22T00:00:00Z,MTL,8,EDM,22,3,4,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020946,20192020,2020-02-22T02:00:00Z,MIN,30,EDM,22,5,3,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020929,20192020,2020-02-20T01:30:00Z,BOS,6,EDM,22,2,1,away win OT,left,Rogers Place,-7,America/Edmonton
+2019020590,20192020,2019-12-28T02:00:00Z,CGY,20,EDM,22,5,1,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020778,20192020,2020-01-30T03:00:00Z,CGY,20,EDM,22,4,3,away win OT,left,Rogers Place,-7,America/Edmonton
+2019020223,20192020,2019-11-05T02:00:00Z,ARI,53,EDM,22,3,2,away win OT,left,Rogers Place,-7,America/Edmonton
+2019020745,20192020,2020-01-18T20:00:00Z,ARI,53,EDM,22,3,7,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020875,20192020,2020-02-12T02:00:00Z,CHI,16,EDM,22,3,5,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020511,20192020,2019-12-15T00:00:00Z,TOR,10,EDM,22,4,1,away win REG,left,Rogers Place,-7,America/Edmonton
+2019021068,20192020,2020-03-10T01:00:00Z,VGK,54,EDM,22,3,2,away win OT,left,Rogers Place,-6,America/Edmonton
+2019020251,20192020,2019-11-09T02:00:00Z,NJD,1,EDM,22,0,4,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020623,20192020,2020-01-01T02:00:00Z,NYR,3,EDM,22,5,7,home win REG,left,Rogers Place,-7,America/Edmonton
+2019021058,20192020,2020-03-08T03:00:00Z,CBJ,29,EDM,22,1,4,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020479,20192020,2019-12-11T02:00:00Z,CAR,12,EDM,22,6,3,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020301,20192020,2019-11-16T21:00:00Z,DAL,25,EDM,22,5,4,away win OT,left,Rogers Place,-7,America/Edmonton
+2019020111,20192020,2019-10-19T01:00:00Z,DET,17,EDM,22,1,2,home win REG,left,Rogers Place,-6,America/Edmonton
+2019020029,20192020,2019-10-06T02:00:00Z,LAK,26,EDM,22,5,6,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020450,20192020,2019-12-07T02:00:00Z,LAK,26,EDM,22,1,2,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020236,20192020,2019-11-07T01:30:00Z,STL,19,EDM,22,5,2,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020790,20192020,2020-02-01T02:00:00Z,STL,19,EDM,22,2,4,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020723,20192020,2020-01-15T02:00:00Z,NSH,18,EDM,22,2,4,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020851,20192020,2020-02-09T00:00:00Z,NSH,18,EDM,22,2,3,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020551,20192020,2019-12-21T02:00:00Z,PIT,5,EDM,22,5,2,away win REG,left,Rogers Place,-7,America/Edmonton
+2019020095,20192020,2019-10-17T01:30:00Z,PHI,4,EDM,22,3,6,home win REG,left,Rogers Place,-6,America/Edmonton
+2019020290,20192020,2019-11-15T02:00:00Z,COL,21,EDM,22,2,6,home win REG,left,Rogers Place,-7,America/Edmonton
+2019020452,20192020,2019-12-07T18:00:00Z,OTT,9,PHI,4,3,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020283,20192020,2019-11-14T00:30:00Z,WSH,15,PHI,4,2,1,away win OT,right,Wells Fargo Center,-5,America/New_York
+2019020676,20192020,2020-01-09T00:30:00Z,WSH,15,PHI,4,2,3,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019030004,20192020,2020-08-06T20:00:00Z,WSH,15,PHI,4,1,3,home win REG,right,Scotiabank Arena,-5,America/New_York
+2019020367,20192020,2019-11-26T00:00:00Z,VAN,23,PHI,4,1,2,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020972,20192020,2020-02-26T00:00:00Z,SJS,28,PHI,4,2,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020861,20192020,2020-02-11T00:00:00Z,FLA,13,PHI,4,1,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020949,20192020,2020-02-22T18:00:00Z,WPG,52,PHI,4,2,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020540,20192020,2019-12-20T00:00:00Z,BUF,7,PHI,4,1,6,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019021056,20192020,2020-03-08T00:00:00Z,BUF,7,PHI,4,1,3,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020240,20192020,2019-11-08T00:00:00Z,MTL,8,PHI,4,2,3,home win OT,right,Wells Fargo Center,-5,America/New_York
+2019020731,20192020,2020-01-17T00:00:00Z,MTL,8,PHI,4,4,1,away win REG,right,Wells Fargo Center,-5,America/New_York
+2019020711,20192020,2020-01-14T00:00:00Z,BOS,6,PHI,4,5,6,home win OT,right,Wells Fargo Center,-5,America/New_York
+2019021073,20192020,2020-03-10T23:00:00Z,BOS,6,PHI,4,2,0,away win REG,right,Wells Fargo Center,-5,America/New_York
+2019020349,20192020,2019-11-23T18:00:00Z,CGY,20,PHI,4,3,2,away win OT,right,Wells Fargo Center,-5,America/New_York
+2019020442,20192020,2019-12-06T00:00:00Z,ARI,53,PHI,4,3,1,away win REG,right,Wells Fargo Center,-5,America/New_York
+2019020016,20192020,2019-10-04T18:00:00Z,CHI,16,PHI,4,3,4,home win REG,right,O2 Czech Republic,-5,America/New_York
+2019020209,20192020,2019-11-02T23:00:00Z,TOR,10,PHI,4,4,3,away win OT,right,Wells Fargo Center,-5,America/New_York
+2019020428,20192020,2019-12-04T00:00:00Z,TOR,10,PHI,4,1,6,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020130,20192020,2019-10-21T23:00:00Z,VGK,54,PHI,4,2,6,home win REG,right,Wells Fargo Center,-4,America/New_York
+2019020045,20192020,2019-10-09T23:30:00Z,NJD,1,PHI,4,0,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020832,20192020,2020-02-07T00:00:00Z,NJD,1,PHI,4,5,0,away win REG,right,Wells Fargo Center,-5,America/New_York
+2019020574,20192020,2019-12-24T00:00:00Z,NYR,3,PHI,4,1,5,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020994,20192020,2020-02-29T00:00:00Z,NYR,3,PHI,4,2,5,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020695,20192020,2020-01-12T00:00:00Z,TBL,14,PHI,4,1,0,away win REG,right,Wells Fargo Center,-5,America/New_York
+2019020165,20192020,2019-10-26T23:00:00Z,CBJ,29,PHI,4,4,7,home win REG,right,Wells Fargo Center,-4,America/New_York
+2019020920,20192020,2020-02-19T00:00:00Z,CBJ,29,PHI,4,1,5,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020226,20192020,2019-11-06T00:00:00Z,CAR,12,PHI,4,1,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019021037,20192020,2020-03-06T00:00:00Z,CAR,12,PHI,4,1,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020117,20192020,2019-10-19T23:00:00Z,DAL,25,PHI,4,4,1,away win REG,right,Wells Fargo Center,-4,America/New_York
+2019020393,20192020,2019-11-29T21:00:00Z,DET,17,PHI,4,1,6,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020750,20192020,2020-01-19T00:00:00Z,LAK,26,PHI,4,1,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020528,20192020,2019-12-18T00:00:00Z,ANA,24,PHI,4,1,4,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020307,20192020,2019-11-17T00:00:00Z,NYI,2,PHI,4,4,3,away win OT,right,Wells Fargo Center,-5,America/New_York
+2019020763,20192020,2020-01-22T00:30:00Z,PIT,5,PHI,4,0,3,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020798,20192020,2020-02-02T00:00:00Z,COL,21,PHI,4,3,6,home win REG,right,Wells Fargo Center,-5,America/New_York
+2019020519,20192020,2019-12-17T00:00:00Z,OTT,9,FLA,13,1,6,home win REG,right,BB&T Center,-5,America/New_York
+2019020238,20192020,2019-11-08T00:00:00Z,WSH,15,FLA,13,5,4,away win OT,right,BB&T Center,-5,America/New_York
+2019020681,20192020,2020-01-10T00:00:00Z,VAN,23,FLA,13,2,5,home win REG,right,BB&T Center,-5,America/New_York
+2019020464,20192020,2019-12-08T22:00:00Z,SJS,28,FLA,13,1,5,home win REG,right,BB&T Center,-5,America/New_York
+2019020288,20192020,2019-11-15T00:00:00Z,WPG,52,FLA,13,4,3,away win REG,right,BB&T Center,-5,America/New_York
+2019020362,20192020,2019-11-24T22:00:00Z,BUF,7,FLA,13,5,2,away win REG,right,BB&T Center,-5,America/New_York
+2019020608,20192020,2019-12-30T00:00:00Z,MTL,8,FLA,13,5,6,home win REG,right,BB&T Center,-5,America/New_York
+2019021054,20192020,2020-03-08T00:00:00Z,MTL,8,FLA,13,1,4,home win REG,right,BB&T Center,-5,America/New_York
+2019020426,20192020,2019-12-04T00:00:00Z,MIN,30,FLA,13,4,2,away win REG,right,BB&T Center,-5,America/New_York
+2019020508,20192020,2019-12-15T00:00:00Z,BOS,6,FLA,13,4,2,away win REG,right,BB&T Center,-5,America/New_York
+2019021035,20192020,2020-03-06T00:00:00Z,BOS,6,FLA,13,2,1,away win OT,right,BB&T Center,-5,America/New_York
+2019021012,20192020,2020-03-01T21:00:00Z,CGY,20,FLA,13,3,0,away win REG,right,BB&T Center,-5,America/New_York
+2019020664,20192020,2020-01-08T00:00:00Z,ARI,53,FLA,13,5,2,away win REG,right,BB&T Center,-5,America/New_York
+2019021002,20192020,2020-02-29T23:00:00Z,CHI,16,FLA,13,3,2,away win OT,right,BB&T Center,-5,America/New_York
+2019020707,20192020,2020-01-13T00:00:00Z,TOR,10,FLA,13,4,8,home win REG,right,BB&T Center,-5,America/New_York
+2019020987,20192020,2020-02-28T00:00:00Z,TOR,10,FLA,13,5,3,away win REG,right,BB&T Center,-5,America/New_York
+2019020830,20192020,2020-02-07T00:00:00Z,VGK,54,FLA,13,7,2,away win REG,right,BB&T Center,-5,America/New_York
+2019020306,20192020,2019-11-17T00:00:00Z,NYR,3,FLA,13,3,4,home win REG,right,BB&T Center,-5,America/New_York
+2019020021,20192020,2019-10-05T23:00:00Z,TBL,14,FLA,13,3,4,home win REG,right,BB&T Center,-5,America/New_York
+2019020473,20192020,2019-12-11T00:00:00Z,TBL,14,FLA,13,2,1,away win REG,right,BB&T Center,-5,America/New_York
+2019020457,20192020,2019-12-08T00:00:00Z,CBJ,29,FLA,13,1,4,home win REG,right,BB&T Center,-5,America/New_York
+2019020036,20192020,2019-10-08T23:00:00Z,CAR,12,FLA,13,6,3,away win REG,right,BB&T Center,-5,America/New_York
+2019020548,20192020,2019-12-21T00:00:00Z,DAL,25,FLA,13,4,7,home win REG,right,BB&T Center,-5,America/New_York
+2019020208,20192020,2019-11-02T23:00:00Z,DET,17,FLA,13,0,4,home win REG,right,BB&T Center,-5,America/New_York
+2019020595,20192020,2019-12-29T00:00:00Z,DET,17,FLA,13,4,5,home win REG,right,BB&T Center,-5,America/New_York
+2019020729,20192020,2020-01-17T00:00:00Z,LAK,26,FLA,13,3,4,home win REG,right,BB&T Center,-5,America/New_York
+2019020898,20192020,2020-02-15T21:00:00Z,EDM,22,FLA,13,4,1,away win REG,right,BB&T Center,-5,America/New_York
+2019020334,20192020,2019-11-22T00:00:00Z,ANA,24,FLA,13,4,5,home win OT,right,BB&T Center,-5,America/New_York
+2019020489,20192020,2019-12-13T00:00:00Z,NYI,2,FLA,13,3,1,away win REG,right,BB&T Center,-5,America/New_York
+2019020408,20192020,2019-12-01T00:00:00Z,NSH,18,FLA,13,0,3,home win REG,right,BB&T Center,-5,America/New_York
+2019020135,20192020,2019-10-22T23:00:00Z,PIT,5,FLA,13,2,4,home win REG,right,BB&T Center,-4,America/New_York
+2019020847,20192020,2020-02-09T00:00:00Z,PIT,5,FLA,13,3,2,away win REG,right,BB&T Center,-5,America/New_York
+2019020319,20192020,2019-11-20T00:00:00Z,PHI,4,FLA,13,2,5,home win REG,right,BB&T Center,-5,America/New_York
+2019020883,20192020,2020-02-14T00:00:00Z,PHI,4,FLA,13,6,2,away win REG,right,BB&T Center,-5,America/New_York
+2019020107,20192020,2019-10-18T23:00:00Z,COL,21,FLA,13,5,4,away win OT,right,BB&T Center,-4,America/New_York
+2019020526,20192020,2019-12-18T00:00:00Z,OTT,9,TBL,14,3,4,home win OT,left,Amalie Arena,-5,America/New_York
+2019020507,20192020,2019-12-15T00:00:00Z,WSH,15,TBL,14,5,2,away win REG,left,Amalie Arena,-5,America/New_York
+2019030002,20192020,2020-08-03T20:00:00Z,WSH,15,TBL,14,2,3,home win OT,left,Scotiabank Arena,-5,America/New_York
+2019020663,20192020,2020-01-08T00:00:00Z,VAN,23,TBL,14,2,9,home win REG,left,Amalie Arena,-5,America/New_York
+2019020456,20192020,2019-12-08T00:00:00Z,SJS,28,TBL,14,1,7,home win REG,left,Amalie Arena,-5,America/New_York
+2019020005,20192020,2019-10-03T23:00:00Z,FLA,13,TBL,14,2,5,home win REG,left,Amalie Arena,-5,America/New_York
+2019020572,20192020,2019-12-24T00:00:00Z,FLA,13,TBL,14,1,6,home win REG,left,Amalie Arena,-5,America/New_York
+2019020300,20192020,2019-11-16T21:00:00Z,WPG,52,TBL,14,4,3,away win REG,left,Amalie Arena,-5,America/New_York
+2019020256,20192020,2019-11-09T18:00:00Z,BUF,7,TBL,14,3,5,home win REG,left,Ericsson Globe,-5,America/New_York
+2019020365,20192020,2019-11-26T00:00:00Z,BUF,7,TBL,14,2,5,home win REG,left,Amalie Arena,-5,America/New_York
+2019020594,20192020,2019-12-29T00:00:00Z,MTL,8,TBL,14,4,5,home win REG,left,Amalie Arena,-5,America/New_York
+2019021034,20192020,2020-03-06T00:00:00Z,MTL,8,TBL,14,0,4,home win REG,left,Amalie Arena,-5,America/New_York
+2019020440,20192020,2019-12-06T00:00:00Z,MIN,30,TBL,14,5,4,away win REG,left,Amalie Arena,-5,America/New_York
+2019020488,20192020,2019-12-13T00:00:00Z,BOS,6,TBL,14,2,3,home win REG,left,Amalie Arena,-5,America/New_York
+2019021019,20192020,2020-03-04T00:30:00Z,BOS,6,TBL,14,2,1,away win REG,left,Amalie Arena,-5,America/New_York
+2019021000,20192020,2020-02-29T21:00:00Z,CGY,20,TBL,14,3,4,home win REG,left,Amalie Arena,-5,America/New_York
+2019020680,20192020,2020-01-10T00:00:00Z,ARI,53,TBL,14,0,4,home win REG,left,Amalie Arena,-5,America/New_York
+2019020986,20192020,2020-02-28T00:00:00Z,CHI,16,TBL,14,5,2,away win REG,left,Amalie Arena,-5,America/New_York
+2019020970,20192020,2020-02-26T00:00:00Z,TOR,10,TBL,14,4,3,away win REG,left,Amalie Arena,-5,America/New_York
+2019020814,20192020,2020-02-05T00:00:00Z,VGK,54,TBL,14,2,4,home win REG,left,Amalie Arena,-5,America/New_York
+2019020287,20192020,2019-11-15T00:00:00Z,NYR,3,TBL,14,3,9,home win REG,left,Amalie Arena,-5,America/New_York
+2019020407,20192020,2019-12-01T00:00:00Z,CAR,12,TBL,14,3,2,away win REG,left,Amalie Arena,-5,America/New_York
+2019020539,20192020,2019-12-20T00:00:00Z,DAL,25,TBL,14,4,3,away win OT,left,Amalie Arena,-5,America/New_York
+2019020607,20192020,2019-12-30T00:00:00Z,DET,17,TBL,14,1,2,home win REG,left,Amalie Arena,-5,America/New_York
+2019020716,20192020,2020-01-15T00:00:00Z,LAK,26,TBL,14,3,4,home win OT,left,Amalie Arena,-5,America/New_York
+2019020380,20192020,2019-11-28T00:00:00Z,STL,19,TBL,14,4,3,away win REG,left,Amalie Arena,-5,America/New_York
+2019020882,20192020,2020-02-14T00:00:00Z,EDM,22,TBL,14,1,3,home win REG,left,Amalie Arena,-5,America/New_York
+2019020353,20192020,2019-11-24T00:00:00Z,ANA,24,TBL,14,2,6,home win REG,left,Amalie Arena,-5,America/New_York
+2019020468,20192020,2019-12-10T00:00:00Z,NYI,2,TBL,14,5,1,away win REG,left,Amalie Arena,-5,America/New_York
+2019020846,20192020,2020-02-09T00:00:00Z,NYI,2,TBL,14,1,3,home win REG,left,Amalie Arena,-5,America/New_York
+2019020164,20192020,2019-10-26T23:00:00Z,NSH,18,TBL,14,3,2,away win OT,left,Amalie Arena,-4,America/New_York
+2019020144,20192020,2019-10-24T00:00:00Z,PIT,5,TBL,14,2,3,home win REG,left,Amalie Arena,-4,America/New_York
+2019020829,20192020,2020-02-07T00:00:00Z,PIT,5,TBL,14,2,4,home win REG,left,Amalie Arena,-5,America/New_York
+2019020897,20192020,2020-02-15T21:00:00Z,PHI,4,TBL,14,3,5,home win REG,left,Amalie Arena,-5,America/New_York
+2019030006,20192020,2020-08-09T00:00:00Z,PHI,4,TBL,14,4,1,away win REG,left,Scotiabank Arena,-5,America/New_York
+2019020116,20192020,2019-10-19T23:00:00Z,COL,21,TBL,14,6,2,away win REG,left,Amalie Arena,-4,America/New_York
+2019020612,20192020,2019-12-31T00:00:00Z,OTT,9,PIT,5,2,5,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019021022,20192020,2020-03-04T00:00:00Z,OTT,9,PIT,5,3,7,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019021050,20192020,2020-03-07T18:00:00Z,WSH,15,PIT,5,5,2,away win REG,left,PPG Paints Arena,-5,America/New_York
+2019020382,20192020,2019-11-28T00:00:00Z,VAN,23,PIT,5,6,8,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020631,20192020,2020-01-03T00:00:00Z,SJS,28,PIT,5,3,2,away win OT,left,PPG Paints Arena,-5,America/New_York
+2019020654,20192020,2020-01-05T22:00:00Z,FLA,13,PIT,5,4,1,away win REG,left,PPG Paints Arena,-5,America/New_York
+2019020038,20192020,2019-10-08T23:00:00Z,WPG,52,PIT,5,4,1,away win REG,left,PPG Paints Arena,-5,America/New_York
+2019020007,20192020,2019-10-03T23:00:00Z,BUF,7,PIT,5,3,1,away win REG,left,PPG Paints Arena,-5,America/New_York
+2019020950,20192020,2020-02-22T18:00:00Z,BUF,7,PIT,5,5,2,away win REG,left,PPG Paints Arena,-5,America/New_York
+2019020474,20192020,2019-12-11T00:00:00Z,MTL,8,PIT,5,4,1,away win REG,left,PPG Paints Arena,-5,America/New_York
+2019020891,20192020,2020-02-15T00:00:00Z,MTL,8,PIT,5,1,4,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020718,20192020,2020-01-15T00:00:00Z,MIN,30,PIT,5,3,7,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020755,20192020,2020-01-19T17:30:00Z,BOS,6,PIT,5,3,4,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020368,20192020,2019-11-26T00:00:00Z,CGY,20,PIT,5,2,3,home win OT,left,PPG Paints Arena,-5,America/New_York
+2019020449,20192020,2019-12-07T00:00:00Z,ARI,53,PIT,5,0,2,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020257,20192020,2019-11-10T00:00:00Z,CHI,16,PIT,5,2,3,home win OT,left,PPG Paints Arena,-5,America/New_York
+2019020308,20192020,2019-11-17T00:00:00Z,TOR,10,PIT,5,1,6,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020921,20192020,2020-02-19T00:00:00Z,TOR,10,PIT,5,2,5,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020118,20192020,2019-10-19T23:00:00Z,VGK,54,PIT,5,3,0,away win REG,left,PPG Paints Arena,-4,America/New_York
+2019020346,20192020,2019-11-23T00:00:00Z,NJD,1,PIT,5,1,4,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020870,20192020,2020-02-12T00:00:00Z,TBL,14,PIT,5,2,1,away win OT,left,PPG Paints Arena,-5,America/New_York
+2019020022,20192020,2019-10-05T23:00:00Z,CBJ,29,PIT,5,2,7,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020490,20192020,2019-12-13T00:00:00Z,CBJ,29,PIT,5,0,1,home win OT,left,PPG Paints Arena,-5,America/New_York
+2019021059,20192020,2020-03-08T17:30:00Z,CAR,12,PIT,5,6,2,away win REG,left,PPG Paints Arena,-5,America/New_York
+2019020108,20192020,2019-10-18T23:00:00Z,DAL,25,PIT,5,2,4,home win REG,left,PPG Paints Arena,-4,America/New_York
+2019020906,20192020,2020-02-16T17:30:00Z,DET,17,PIT,5,1,5,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020509,20192020,2019-12-15T00:00:00Z,LAK,26,PIT,5,4,5,home win OT,left,PPG Paints Arena,-5,America/New_York
+2019020435,20192020,2019-12-05T01:00:00Z,STL,19,PIT,5,0,3,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020204,20192020,2019-11-02T17:00:00Z,EDM,22,PIT,5,2,1,away win OT,left,PPG Paints Arena,-5,America/New_York
+2019020050,20192020,2019-10-10T23:00:00Z,ANA,24,PIT,5,1,2,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020321,20192020,2019-11-20T00:00:00Z,NYI,2,PIT,5,5,4,away win OT,left,PPG Paints Arena,-5,America/New_York
+2019020596,20192020,2019-12-29T00:00:00Z,NSH,18,PIT,5,4,6,home win REG,left,PPG Paints Arena,-5,America/New_York
+2019020182,20192020,2019-10-29T23:00:00Z,PHI,4,PIT,5,1,7,home win REG,left,PPG Paints Arena,-4,America/New_York
+2019020786,20192020,2020-02-01T00:00:00Z,PHI,4,PIT,5,3,4,home win OT,left,PPG Paints Arena,-5,America/New_York
+2019020092,20192020,2019-10-16T23:00:00Z,COL,21,PIT,5,2,3,home win OT,left,PPG Paints Arena,-4,America/New_York
+2019020667,20192020,2020-01-08T00:00:00Z,OTT,9,WSH,15,1,6,home win REG,right,Capital One Arena,-5,America/New_York
+2019020348,20192020,2019-11-23T17:30:00Z,VAN,23,WSH,15,2,1,away win OT,right,Capital One Arena,-5,America/New_York
+2019020653,20192020,2020-01-05T17:30:00Z,SJS,28,WSH,15,4,5,home win OT,right,Capital One Arena,-5,America/New_York
+2019020383,20192020,2019-11-28T00:00:00Z,FLA,13,WSH,15,3,4,home win REG,right,Capital One Arena,-5,America/New_York
+2019020973,20192020,2020-02-26T00:00:00Z,WPG,52,WSH,15,3,4,home win OT,right,Capital One Arena,-5,America/New_York
+2019020198,20192020,2019-11-01T23:00:00Z,BUF,7,WSH,15,1,6,home win REG,right,Capital One Arena,-5,America/New_York
+2019020296,20192020,2019-11-16T00:00:00Z,MTL,8,WSH,15,5,2,away win REG,right,Capital One Arena,-5,America/New_York
+2019020935,20192020,2020-02-21T00:00:00Z,MTL,8,WSH,15,4,3,away win OT,right,Capital One Arena,-5,America/New_York
+2019020484,20192020,2019-12-12T00:00:00Z,BOS,6,WSH,15,2,3,home win REG,right,Capital One Arena,-5,America/New_York
+2019030005,20192020,2020-08-09T16:00:00Z,BOS,6,WSH,15,1,2,home win REG,right,Scotiabank Arena,-5,America/New_York
+2019020218,20192020,2019-11-04T00:00:00Z,CGY,20,WSH,15,2,4,home win REG,right,Capital One Arena,-5,America/New_York
+2019020270,20192020,2019-11-12T00:00:00Z,ARI,53,WSH,15,4,3,away win OT,right,Capital One Arena,-5,America/New_York
+2019020093,20192020,2019-10-16T23:00:00Z,TOR,10,WSH,15,3,4,home win REG,right,Capital One Arena,-4,America/New_York
+2019020258,20192020,2019-11-10T00:00:00Z,VGK,54,WSH,15,2,5,home win REG,right,Capital One Arena,-5,America/New_York
+2019020696,20192020,2020-01-12T00:00:00Z,NJD,1,WSH,15,5,1,away win REG,right,Capital One Arena,-5,America/New_York
+2019020732,20192020,2020-01-17T00:00:00Z,NJD,1,WSH,15,2,5,home win REG,right,Capital One Arena,-5,America/New_York
+2019020109,20192020,2019-10-18T23:00:00Z,NYR,3,WSH,15,2,5,home win REG,right,Capital One Arena,-4,America/New_York
+2019020398,20192020,2019-11-29T22:00:00Z,TBL,14,WSH,15,3,4,home win OT,right,Capital One Arena,-5,America/New_York
+2019020558,20192020,2019-12-22T00:00:00Z,TBL,14,WSH,15,1,3,home win REG,right,Capital One Arena,-5,America/New_York
+2019020469,20192020,2019-12-10T00:00:00Z,CBJ,29,WSH,15,5,2,away win REG,right,Capital One Arena,-5,America/New_York
+2019020585,20192020,2019-12-28T00:00:00Z,CBJ,29,WSH,15,1,2,home win OT,right,Capital One Arena,-5,America/New_York
+2019020023,20192020,2019-10-05T23:00:00Z,CAR,12,WSH,15,3,2,away win OT,right,Capital One Arena,-5,America/New_York
+2019020712,20192020,2020-01-14T00:00:00Z,CAR,12,WSH,15,0,2,home win REG,right,Capital One Arena,-5,America/New_York
+2019020039,20192020,2019-10-08T23:00:00Z,DAL,25,WSH,15,4,3,away win OT,right,Capital One Arena,-5,America/New_York
+2019020817,20192020,2020-02-05T00:00:00Z,LAK,26,WSH,15,2,4,home win REG,right,Capital One Arena,-5,America/New_York
+2019020316,20192020,2019-11-19T00:00:00Z,ANA,24,WSH,15,2,5,home win REG,right,Capital One Arena,-5,America/New_York
+2019020614,20192020,2019-12-31T18:00:00Z,NYI,2,WSH,15,4,3,away win REG,right,Capital One Arena,-5,America/New_York
+2019020862,20192020,2020-02-11T00:00:00Z,NYI,2,WSH,15,5,3,away win REG,right,Capital One Arena,-5,America/New_York
+2019020776,20192020,2020-01-30T00:30:00Z,NSH,18,WSH,15,5,4,away win REG,right,Capital One Arena,-5,America/New_York
+2019020806,20192020,2020-02-02T17:30:00Z,PIT,5,WSH,15,4,3,away win REG,right,Capital One Arena,-5,America/New_York
+2019020959,20192020,2020-02-23T17:00:00Z,PIT,5,WSH,15,3,5,home win REG,right,Capital One Arena,-5,America/New_York
+2019020849,20192020,2020-02-09T00:00:00Z,PHI,4,WSH,15,7,2,away win REG,right,Capital One Arena,-5,America/New_York
+2019021029,20192020,2020-03-05T00:00:00Z,PHI,4,WSH,15,5,2,away win REG,right,Capital One Arena,-4,America/New_York
+2019020083,20192020,2019-10-14T21:00:00Z,COL,21,WSH,15,6,3,away win REG,right,Capital One Arena,-5,America/New_York
+2019020843,20192020,2020-02-08T19:00:00Z,OTT,9,WPG,52,2,5,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020992,20192020,2020-02-28T01:00:00Z,WSH,15,WPG,52,0,3,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020250,20192020,2019-11-09T01:00:00Z,VAN,23,WPG,52,1,4,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020721,20192020,2020-01-15T01:00:00Z,VAN,23,WPG,52,0,4,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020893,20192020,2020-02-15T00:00:00Z,SJS,28,WPG,52,3,2,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019021024,20192020,2020-03-04T01:00:00Z,BUF,7,WPG,52,1,3,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020577,20192020,2019-12-24T01:00:00Z,MTL,8,WPG,52,6,2,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020053,20192020,2019-10-11T00:00:00Z,MIN,30,WPG,52,2,5,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020789,20192020,2020-02-01T01:00:00Z,BOS,6,WPG,52,2,1,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020168,20192020,2019-10-27T02:00:00Z,CGY,20,WPG,52,1,2,home win OT,right,Mosaic Stadium,-5,America/Winnipeg
+2019020087,20192020,2019-10-16T00:00:00Z,ARI,53,WPG,52,4,2,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019021067,20192020,2020-03-10T00:00:00Z,ARI,53,WPG,52,2,4,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020543,20192020,2019-12-20T01:00:00Z,CHI,16,WPG,52,4,1,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020858,20192020,2020-02-10T00:00:00Z,CHI,16,WPG,52,2,5,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020914,20192020,2020-02-17T01:30:00Z,CHI,16,WPG,52,2,3,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020633,20192020,2020-01-03T01:00:00Z,TOR,10,WPG,52,6,3,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019021045,20192020,2020-03-07T01:00:00Z,VGK,54,WPG,52,0,4,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020229,20192020,2019-11-06T01:00:00Z,NJD,1,WPG,52,2,1,away win OT,right,Bell MTS Place,-6,America/Winnipeg
+2019020872,20192020,2020-02-12T01:00:00Z,NYR,3,WPG,52,4,1,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020742,20192020,2020-01-18T01:00:00Z,TBL,14,WPG,52,7,1,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020356,20192020,2019-11-24T00:00:00Z,CBJ,29,WPG,52,3,4,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020530,20192020,2019-12-18T01:00:00Z,CAR,12,WPG,52,6,3,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020264,20192020,2019-11-10T19:00:00Z,DAL,25,WPG,52,2,3,home win OT,right,Bell MTS Place,-6,America/Winnipeg
+2019020431,20192020,2019-12-04T01:00:00Z,DAL,25,WPG,52,1,5,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020477,20192020,2019-12-11T01:00:00Z,DET,17,WPG,52,1,5,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020140,20192020,2019-10-23T00:00:00Z,LAK,26,WPG,52,3,2,away win REG,right,Bell MTS Place,-5,America/Winnipeg
+2019020926,20192020,2020-02-19T01:00:00Z,LAK,26,WPG,52,3,6,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020587,20192020,2019-12-28T01:00:00Z,STL,19,WPG,52,5,4,away win OT,right,Bell MTS Place,-6,America/Winnipeg
+2019020799,20192020,2020-02-02T00:00:00Z,STL,19,WPG,52,2,5,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020127,20192020,2019-10-20T23:00:00Z,EDM,22,WPG,52,0,1,home win OT,right,Bell MTS Place,-5,America/Winnipeg
+2019020463,20192020,2019-12-08T20:00:00Z,ANA,24,WPG,52,2,3,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020102,20192020,2019-10-18T00:00:00Z,NYI,2,WPG,52,3,1,away win REG,right,Bell MTS Place,-5,America/Winnipeg
+2019020703,20192020,2020-01-12T19:00:00Z,NSH,18,WPG,52,1,0,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020822,20192020,2020-02-05T01:00:00Z,NSH,18,WPG,52,2,1,away win OT,right,Bell MTS Place,-6,America/Winnipeg
+2019020075,20192020,2019-10-13T23:00:00Z,PIT,5,WPG,52,7,2,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020515,20192020,2019-12-15T22:00:00Z,PHI,4,WPG,52,3,7,home win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020276,20192020,2019-11-13T01:00:00Z,COL,21,WPG,52,4,0,away win REG,right,Bell MTS Place,-6,America/Winnipeg
+2019020874,20192020,2020-02-12T02:00:00Z,OTT,9,COL,21,0,3,home win REG,right,Pepsi Center,-7,America/Denver
+2019020888,20192020,2020-02-14T02:30:00Z,WSH,15,COL,21,3,2,away win REG,right,Pepsi Center,-7,America/Denver
+2019020738,20192020,2020-01-17T02:00:00Z,SJS,28,COL,21,0,4,home win REG,right,Pepsi Center,-7,America/Denver
+2019020191,20192020,2019-10-31T02:00:00Z,FLA,13,COL,21,4,3,away win OT,right,Pepsi Center,-7,America/Denver
+2019020621,20192020,2020-01-01T01:00:00Z,WPG,52,COL,21,7,4,away win REG,right,Pepsi Center,-7,America/Denver
+2019020981,20192020,2020-02-27T01:00:00Z,BUF,7,COL,21,2,3,home win REG,right,Pepsi Center,-7,America/Denver
+2019020026,20192020,2019-10-06T01:00:00Z,MIN,30,COL,21,2,4,home win REG,right,Pepsi Center,-7,America/Denver
+2019020588,20192020,2019-12-28T01:00:00Z,MIN,30,COL,21,6,4,away win REG,right,Pepsi Center,-7,America/Denver
+2019020056,20192020,2019-10-11T01:00:00Z,BOS,6,COL,21,2,4,home win REG,right,Pepsi Center,-7,America/Denver
+2019020011,20192020,2019-10-04T01:00:00Z,CGY,20,COL,21,3,5,home win REG,right,Pepsi Center,-7,America/Denver
+2019020471,20192020,2019-12-10T02:00:00Z,CGY,20,COL,21,5,4,away win OT,right,Pepsi Center,-7,America/Denver
+2019020072,20192020,2019-10-13T01:00:00Z,ARI,53,COL,21,2,3,home win OT,right,Pepsi Center,-7,America/Denver
+2019020413,20192020,2019-12-01T02:00:00Z,CHI,16,COL,21,3,7,home win REG,right,Pepsi Center,-7,America/Denver
+2019020562,20192020,2019-12-22T02:00:00Z,CHI,16,COL,21,5,3,away win REG,right,Pepsi Center,-7,America/Denver
+2019020357,20192020,2019-11-24T00:00:00Z,TOR,10,COL,21,5,3,away win REG,right,Pepsi Center,-7,America/Denver
+2019030015,20192020,2020-08-08T19:00:00Z,VGK,54,COL,21,4,3,away win OT,right,Rogers Place,-7,America/Denver
+2019020500,20192020,2019-12-14T02:00:00Z,NJD,1,COL,21,1,3,home win REG,right,Pepsi Center,-7,America/Denver
+2019021081,20192020,2020-03-12T02:00:00Z,NYR,3,COL,21,2,3,home win OT,right,Pepsi Center,-7,America/Denver
+2019020919,20192020,2020-02-18T02:00:00Z,TBL,14,COL,21,4,3,away win OT,right,Pepsi Center,-7,America/Denver
+2019020260,20192020,2019-11-10T02:00:00Z,CBJ,29,COL,21,2,4,home win REG,right,Pepsi Center,-7,America/Denver
+2019020544,20192020,2019-12-20T02:00:00Z,CAR,12,COL,21,3,1,away win REG,right,Pepsi Center,-7,America/Denver
+2019020201,20192020,2019-11-02T01:00:00Z,DAL,25,COL,21,2,1,away win REG,right,Pepsi Center,-7,America/Denver
+2019020722,20192020,2020-01-15T02:00:00Z,DAL,25,COL,21,3,2,away win OT,right,Pepsi Center,-7,America/Denver
+2019020759,20192020,2020-01-20T20:00:00Z,DET,17,COL,21,3,6,home win REG,right,Pepsi Center,-7,America/Denver
+2019020902,20192020,2020-02-16T01:00:00Z,LAK,26,COL,21,3,1,away win REG,right,Falcon Stadium,-7,America/Denver
+2019020634,20192020,2020-01-03T02:30:00Z,STL,19,COL,21,3,7,home win REG,right,Pepsi Center,-7,America/Denver
+2019020744,20192020,2020-01-18T20:00:00Z,STL,19,COL,21,3,5,home win REG,right,Pepsi Center,-7,America/Denver
+2019030011,20192020,2020-08-02T22:30:00Z,STL,19,COL,21,1,2,home win REG,right,Rogers Place,-7,America/Denver
+2019020387,20192020,2019-11-28T03:00:00Z,EDM,22,COL,21,1,4,home win REG,right,Pepsi Center,-7,America/Denver
+2019020169,20192020,2019-10-27T01:00:00Z,ANA,24,COL,21,5,2,away win REG,right,Pepsi Center,-6,America/Denver
+2019021031,20192020,2020-03-05T02:30:00Z,ANA,24,COL,21,4,3,away win OT,right,Pepsi Center,-7,America/Denver
+2019020930,20192020,2020-02-20T03:00:00Z,NYI,2,COL,21,1,3,home win REG,right,Pepsi Center,-7,America/Denver
+2019020244,20192020,2019-11-08T02:00:00Z,NSH,18,COL,21,4,9,home win REG,right,Pepsi Center,-7,America/Denver
+2019020691,20192020,2020-01-11T02:00:00Z,PIT,5,COL,21,4,3,away win OT,right,Pepsi Center,-7,America/Denver
+2019020486,20192020,2019-12-12T02:30:00Z,PHI,4,COL,21,1,3,home win REG,right,Pepsi Center,-7,America/Denver
+2019020977,20192020,2020-02-26T01:00:00Z,OTT,9,NSH,18,2,3,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020052,20192020,2019-10-11T00:00:00Z,WSH,15,NSH,18,5,6,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020339,20192020,2019-11-22T01:00:00Z,VAN,23,NSH,18,6,3,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020041,20192020,2019-10-09T00:00:00Z,SJS,28,NSH,18,2,5,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020475,20192020,2019-12-11T01:00:00Z,SJS,28,NSH,18,1,3,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020121,20192020,2019-10-20T00:00:00Z,FLA,13,NSH,18,3,2,away win OT,left,Bridgestone Arena,-5,America/Chicago
+2019020325,20192020,2019-11-20T01:00:00Z,WPG,52,NSH,18,2,1,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020752,20192020,2020-01-19T01:00:00Z,BUF,7,NSH,18,1,2,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020009,20192020,2019-10-04T00:00:00Z,MIN,30,NSH,18,2,5,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020150,20192020,2019-10-25T00:00:00Z,MIN,30,NSH,18,0,4,home win REG,left,Bridgestone Arena,-5,America/Chicago
+2019020671,20192020,2020-01-08T01:00:00Z,BOS,6,NSH,18,6,2,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020194,20192020,2019-11-01T00:00:00Z,CGY,20,NSH,18,6,5,away win OT,left,Bridgestone Arena,-6,America/Chicago
+2019020991,20192020,2020-02-28T01:00:00Z,CGY,20,NSH,18,3,4,home win OT,left,Bridgestone Arena,-6,America/Chicago
+2019020576,20192020,2019-12-24T01:00:00Z,ARI,53,NSH,18,2,3,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020185,20192020,2019-10-30T00:00:00Z,CHI,16,NSH,18,0,3,home win REG,left,Bridgestone Arena,-5,America/Chicago
+2019020310,20192020,2019-11-17T01:00:00Z,CHI,16,NSH,18,7,2,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020770,20192020,2020-01-28T01:00:00Z,TOR,10,NSH,18,5,2,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020385,20192020,2019-11-28T01:00:00Z,VGK,54,NSH,18,4,3,away win OT,left,Bridgestone Arena,-6,America/Chicago
+2019020800,20192020,2020-02-02T01:00:00Z,VGK,54,NSH,18,3,0,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020460,20192020,2019-12-08T01:00:00Z,NJD,1,NSH,18,4,6,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020205,20192020,2019-11-02T18:00:00Z,NYR,3,NSH,18,2,1,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020430,20192020,2019-12-04T01:00:00Z,TBL,14,NSH,18,3,2,away win OT,left,Bridgestone Arena,-6,America/Chicago
+2019020954,20192020,2020-02-23T01:00:00Z,CBJ,29,NSH,18,3,4,home win OT,left,Bridgestone Arena,-6,America/Chicago
+2019020925,20192020,2020-02-19T01:00:00Z,CAR,12,NSH,18,4,1,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020505,20192020,2019-12-14T23:30:00Z,DAL,25,NSH,18,4,1,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019021039,20192020,2020-03-06T01:00:00Z,DAL,25,NSH,18,0,2,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020025,20192020,2019-10-06T00:00:00Z,DET,17,NSH,18,5,3,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020370,20192020,2019-11-26T01:00:00Z,STL,19,NSH,18,2,3,home win OT,left,Bridgestone Arena,-6,America/Chicago
+2019020912,20192020,2020-02-16T23:00:00Z,STL,19,NSH,18,1,2,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019021018,20192020,2020-03-03T01:00:00Z,EDM,22,NSH,18,8,3,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020138,20192020,2019-10-23T00:00:00Z,ANA,24,NSH,18,1,6,home win REG,left,Bridgestone Arena,-5,America/Chicago
+2019020735,20192020,2020-01-17T01:00:00Z,ANA,24,NSH,18,4,2,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020886,20192020,2020-02-14T01:00:00Z,NYI,2,NSH,18,0,5,home win REG,left,Bridgestone Arena,-6,America/Chicago
+2019020586,20192020,2019-12-28T01:00:00Z,PIT,5,NSH,18,5,2,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019021007,20192020,2020-03-01T00:00:00Z,COL,21,NSH,18,3,2,away win REG,left,Bridgestone Arena,-6,America/Chicago
+2019021057,20192020,2020-03-08T00:00:00Z,OTT,9,SJS,28,2,1,away win OT,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020433,20192020,2019-12-04T03:30:00Z,WSH,15,SJS,28,5,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020216,20192020,2019-11-03T02:00:00Z,VAN,23,SJS,28,5,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020514,20192020,2019-12-15T03:00:00Z,VAN,23,SJS,28,2,4,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020781,20192020,2020-01-30T03:30:00Z,VAN,23,SJS,28,5,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020917,20192020,2020-02-17T21:00:00Z,FLA,13,SJS,28,5,3,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020203,20192020,2019-11-02T02:30:00Z,WPG,52,SJS,28,3,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020389,20192020,2019-11-28T03:30:00Z,WPG,52,SJS,28,5,1,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020123,20192020,2019-10-20T02:30:00Z,BUF,7,SJS,28,4,3,away win REG,left,SAP Center at San Jose,-7,America/Los_Angeles
+2019020247,20192020,2019-11-08T03:30:00Z,MIN,30,SJS,28,5,6,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019021042,20192020,2020-03-06T03:30:00Z,MIN,30,SJS,28,3,2,away win REG,left,SAP Center at San Jose,-7,America/Los_Angeles
+2019020077,20192020,2019-10-14T02:00:00Z,CGY,20,SJS,28,1,3,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020865,20192020,2020-02-11T03:30:00Z,CGY,20,SJS,28,6,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020534,20192020,2019-12-18T03:30:00Z,ARI,53,SJS,28,3,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020234,20192020,2019-11-06T03:00:00Z,CHI,16,SJS,28,2,4,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019021028,20192020,2020-03-04T03:30:00Z,TOR,10,SJS,28,2,5,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020017,20192020,2019-10-05T02:30:00Z,VGK,54,SJS,28,5,1,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020568,20192020,2019-12-23T03:00:00Z,VGK,54,SJS,28,3,1,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020993,20192020,2020-02-28T03:30:00Z,NJD,1,SJS,28,2,3,home win OT,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020498,20192020,2019-12-13T03:30:00Z,NYR,3,SJS,28,6,3,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020805,20192020,2020-02-02T03:30:00Z,TBL,14,SJS,28,3,0,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020688,20192020,2020-01-10T03:30:00Z,CBJ,29,SJS,28,1,3,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020097,20192020,2019-10-17T02:30:00Z,CAR,12,SJS,28,2,5,home win REG,left,SAP Center at San Jose,-7,America/Los_Angeles
+2019020702,20192020,2020-01-12T03:30:00Z,DAL,25,SJS,28,1,2,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020313,20192020,2019-11-17T03:30:00Z,DET,17,SJS,28,3,4,home win OT,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020397,20192020,2019-11-29T21:00:00Z,LAK,26,SJS,28,1,4,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020592,20192020,2019-12-28T03:00:00Z,LAK,26,SJS,28,3,2,away win OT,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020564,20192020,2019-12-22T03:30:00Z,STL,19,SJS,28,5,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020280,20192020,2019-11-13T03:30:00Z,EDM,22,SJS,28,3,6,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020330,20192020,2019-11-20T03:30:00Z,EDM,22,SJS,28,5,2,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020773,20192020,2020-01-28T03:30:00Z,ANA,24,SJS,28,2,4,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020361,20192020,2019-11-24T03:30:00Z,NYI,2,SJS,28,1,2,home win OT,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020262,20192020,2019-11-10T03:30:00Z,NSH,18,SJS,28,1,2,home win OT,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019021010,20192020,2020-03-01T03:30:00Z,PIT,5,SJS,28,0,5,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019020601,20192020,2019-12-29T03:30:00Z,PHI,4,SJS,28,1,6,home win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019021065,20192020,2020-03-09T02:00:00Z,COL,21,SJS,28,4,3,away win REG,left,SAP Center at San Jose,-8,America/Los_Angeles
+2019021078,20192020,2020-03-11T02:00:00Z,OTT,9,ANA,24,2,5,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020451,20192020,2019-12-07T03:00:00Z,WSH,15,ANA,24,3,2,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020202,20192020,2019-11-02T02:00:00Z,VAN,23,ANA,24,1,2,home win OT,left,Honda Center,-8,America/Los_Angeles
+2019020030,20192020,2019-10-06T02:00:00Z,SJS,28,ANA,24,1,3,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020292,20192020,2019-11-15T03:00:00Z,SJS,28,ANA,24,5,3,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020931,20192020,2020-02-20T03:00:00Z,FLA,13,ANA,24,4,1,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020187,20192020,2019-10-30T02:00:00Z,WPG,52,ANA,24,4,7,home win REG,left,Honda Center,-7,America/Los_Angeles
+2019020396,20192020,2019-11-29T21:00:00Z,WPG,52,ANA,24,3,0,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020096,20192020,2019-10-17T02:00:00Z,BUF,7,ANA,24,2,5,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020233,20192020,2019-11-06T03:00:00Z,MIN,30,ANA,24,4,2,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019021063,20192020,2020-03-09T01:00:00Z,MIN,30,ANA,24,5,4,away win OT,left,Honda Center,-8,America/Los_Angeles
+2019020128,20192020,2019-10-21T01:00:00Z,CGY,20,ANA,24,2,1,away win REG,left,Honda Center,-7,America/Los_Angeles
+2019020890,20192020,2020-02-14T03:00:00Z,CGY,20,ANA,24,6,0,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020012,20192020,2019-10-04T02:00:00Z,ARI,53,ANA,24,1,2,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020779,20192020,2020-01-30T03:00:00Z,ARI,53,ANA,24,2,4,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020219,20192020,2019-11-04T01:00:00Z,CHI,16,ANA,24,3,2,away win OT,left,Honda Center,-8,America/Los_Angeles
+2019021048,20192020,2020-03-07T03:00:00Z,TOR,10,ANA,24,1,2,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020591,20192020,2019-12-28T03:00:00Z,VGK,54,ANA,24,3,4,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020965,20192020,2020-02-24T03:00:00Z,VGK,54,ANA,24,6,5,away win OT,left,Honda Center,-8,America/Los_Angeles
+2019021015,20192020,2020-03-02T01:00:00Z,NJD,1,ANA,24,3,0,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020504,20192020,2019-12-14T21:00:00Z,NYR,3,ANA,24,3,4,home win OT,left,Honda Center,-8,America/Los_Angeles
+2019020791,20192020,2020-02-01T03:00:00Z,TBL,14,ANA,24,4,3,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020674,20192020,2020-01-08T03:00:00Z,CBJ,29,ANA,24,4,3,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020112,20192020,2019-10-19T02:00:00Z,CAR,12,ANA,24,2,4,home win REG,left,Honda Center,-7,America/Los_Angeles
+2019020687,20192020,2020-01-10T03:00:00Z,DAL,25,ANA,24,3,0,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020278,20192020,2019-11-13T03:00:00Z,DET,17,ANA,24,4,3,away win OT,left,Honda Center,-8,America/Los_Angeles
+2019020423,20192020,2019-12-03T03:00:00Z,LAK,26,ANA,24,2,4,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020497,20192020,2019-12-13T03:00:00Z,LAK,26,ANA,24,2,1,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020876,20192020,2020-03-12T02:00:00Z,STL,19,ANA,24,4,2,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020269,20192020,2019-11-11T02:00:00Z,EDM,22,ANA,24,6,2,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019020980,20192020,2020-02-26T03:00:00Z,EDM,22,ANA,24,3,4,home win OT,left,Honda Center,-8,America/Los_Angeles
+2019020372,20192020,2019-11-26T03:00:00Z,NYI,2,ANA,24,0,3,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020658,20192020,2020-01-06T03:00:00Z,NSH,18,ANA,24,4,5,home win OT,left,Honda Center,-8,America/Los_Angeles
+2019020998,20192020,2020-02-29T03:00:00Z,PIT,5,ANA,24,2,3,home win REG,left,Honda Center,-8,America/Los_Angeles
+2019020610,20192020,2019-12-30T01:30:00Z,PHI,4,ANA,24,2,1,away win OT,left,Honda Center,-8,America/Los_Angeles
+2019020947,20192020,2020-02-22T03:00:00Z,COL,21,ANA,24,1,0,away win REG,left,Honda Center,-8,America/Los_Angeles
+2019021082,20192020,2020-03-12T02:30:00Z,OTT,9,LAK,26,2,3,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020437,20192020,2019-12-05T03:00:00Z,WSH,15,LAK,26,3,1,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020193,20192020,2019-10-31T02:30:00Z,VAN,23,LAK,26,5,3,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020373,20192020,2019-11-26T03:30:00Z,SJS,28,LAK,26,4,3,away win OT,right,STAPLES Center,-8,America/Los_Angeles
+2019020940,20192020,2020-02-21T03:30:00Z,FLA,13,LAK,26,4,5,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020415,20192020,2019-12-01T03:00:00Z,WPG,52,LAK,26,1,2,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020106,20192020,2019-10-18T02:30:00Z,BUF,7,LAK,26,3,0,away win REG,right,STAPLES Center,-7,America/Los_Angeles
+2019020279,20192020,2019-11-13T03:30:00Z,MIN,30,LAK,26,1,3,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019021052,20192020,2020-03-07T21:00:00Z,MIN,30,LAK,26,3,7,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020122,20192020,2019-10-20T02:00:00Z,CGY,20,LAK,26,1,4,home win REG,right,STAPLES Center,-7,America/Los_Angeles
+2019020878,20192020,2020-02-13T03:00:00Z,CGY,20,LAK,26,3,5,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020350,20192020,2019-11-23T21:00:00Z,ARI,53,LAK,26,3,2,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020217,20192020,2019-11-03T02:30:00Z,CHI,16,LAK,26,3,4,home win OT,right,STAPLES Center,-8,America/Los_Angeles
+2019021041,20192020,2020-03-06T03:30:00Z,TOR,10,LAK,26,0,1,home win OT,right,STAPLES Center,-8,America/Los_Angeles
+2019020076,20192020,2019-10-14T02:00:00Z,VGK,54,LAK,26,5,2,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020312,20192020,2019-11-16T21:00:00Z,VGK,54,LAK,26,3,4,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019021001,20192020,2020-02-29T21:00:00Z,NJD,1,LAK,26,1,2,home win OT,right,STAPLES Center,-8,America/Los_Angeles
+2019020483,20192020,2019-12-11T03:30:00Z,NYR,3,LAK,26,1,3,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020780,20192020,2020-01-30T03:00:00Z,TBL,14,LAK,26,4,2,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020662,20192020,2020-01-07T03:30:00Z,CBJ,29,LAK,26,4,2,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020091,20192020,2019-10-16T02:30:00Z,CAR,12,LAK,26,2,0,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020677,20192020,2020-01-09T03:00:00Z,DAL,25,LAK,26,2,1,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020293,20192020,2019-11-15T03:30:00Z,DET,17,LAK,26,2,3,home win OT,right,STAPLES Center,-8,America/Los_Angeles
+2019020581,20192020,2019-12-24T03:00:00Z,STL,19,LAK,26,4,1,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020345,20192020,2019-11-22T03:30:00Z,EDM,22,LAK,26,1,5,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020966,20192020,2020-02-24T03:00:00Z,EDM,22,LAK,26,4,2,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020804,20192020,2020-02-02T03:30:00Z,ANA,24,LAK,26,3,1,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020388,20192020,2019-11-28T03:30:00Z,NYI,2,LAK,26,1,4,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020063,20192020,2019-10-12T22:00:00Z,NSH,18,LAK,26,4,7,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020652,20192020,2020-01-05T03:30:00Z,NSH,18,LAK,26,4,1,away win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020983,20192020,2020-02-27T03:30:00Z,PIT,5,LAK,26,1,2,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020625,20192020,2020-01-01T02:00:00Z,PHI,4,LAK,26,3,5,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020958,20192020,2020-02-23T03:30:00Z,COL,21,LAK,26,2,1,away win OT,right,STAPLES Center,-8,America/Los_Angeles
+2019021069,20192020,2020-03-10T02:30:00Z,COL,21,LAK,26,1,3,home win REG,right,STAPLES Center,-8,America/Los_Angeles
+2019020002,20192020,2019-10-03T00:00:00Z,WSH,15,STL,19,3,2,away win OT,left,Enterprise Center,-6,America/Chicago
+2019020101,20192020,2019-10-18T00:00:00Z,VAN,23,STL,19,4,3,away win OT,left,Enterprise Center,-5,America/Chicago
+2019020670,20192020,2020-01-08T01:00:00Z,SJS,28,STL,19,2,3,home win REG,left,Enterprise Center,-6,America/Chicago
+2019021075,20192020,2020-03-10T00:00:00Z,FLA,13,STL,19,2,1,away win REG,left,Enterprise Center,-5,America/Chicago
+2019020602,20192020,2019-12-29T20:00:00Z,WPG,52,STL,19,1,4,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020834,20192020,2020-02-07T01:00:00Z,WPG,52,STL,19,4,2,away win REG,left,Enterprise Center,-6,America/Chicago
+2019020683,20192020,2020-01-10T01:00:00Z,BUF,7,STL,19,1,5,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020114,20192020,2019-10-19T19:00:00Z,MTL,8,STL,19,5,2,away win REG,left,Enterprise Center,-5,America/Chicago
+2019020190,20192020,2019-10-31T00:00:00Z,MIN,30,STL,19,1,2,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020338,20192020,2019-11-22T01:00:00Z,CGY,20,STL,19,0,5,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020275,20192020,2019-11-13T01:00:00Z,ARI,53,STL,19,3,2,away win OT,left,Enterprise Center,-6,America/Chicago
+2019020938,20192020,2020-02-21T01:00:00Z,ARI,53,STL,19,0,1,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020512,20192020,2019-12-15T01:00:00Z,CHI,16,STL,19,3,4,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020976,20192020,2020-02-26T01:00:00Z,CHI,16,STL,19,5,6,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020459,20192020,2019-12-08T00:00:00Z,TOR,10,STL,19,5,2,away win REG,left,Enterprise Center,-6,America/Chicago
+2019020492,20192020,2019-12-13T01:00:00Z,VGK,54,STL,19,2,4,home win REG,left,Enterprise Center,-6,America/Chicago
+2019030014,20192020,2020-08-06T22:30:00Z,VGK,54,STL,19,6,4,away win REG,left,Rogers Place,-6,America/Chicago
+2019020924,20192020,2020-02-19T01:00:00Z,NJD,1,STL,19,0,3,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020698,20192020,2020-01-12T01:00:00Z,NYR,3,STL,19,2,5,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020324,20192020,2019-11-20T01:00:00Z,TBL,14,STL,19,1,3,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020200,20192020,2019-11-02T00:00:00Z,CBJ,29,STL,19,3,4,home win OT,left,Enterprise Center,-6,America/Chicago
+2019020820,20192020,2020-02-05T01:00:00Z,CAR,12,STL,19,3,6,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020024,20192020,2019-10-06T00:00:00Z,DAL,25,STL,19,2,3,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020852,20192020,2020-02-09T01:00:00Z,DAL,25,STL,19,3,2,away win OT,left,Enterprise Center,-6,America/Chicago
+2019021006,20192020,2020-03-01T01:00:00Z,DAL,25,STL,19,3,4,home win OT,left,Enterprise Center,-6,America/Chicago
+2019030016,20192020,2020-08-09T19:00:00Z,DAL,25,STL,19,2,1,away win OT,left,Rogers Place,-6,America/Chicago
+2019020149,20192020,2019-10-25T00:00:00Z,LAK,26,STL,19,2,5,home win REG,left,Enterprise Center,-5,America/Chicago
+2019020537,20192020,2019-12-19T01:30:00Z,EDM,22,STL,19,1,2,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020309,20192020,2019-11-17T01:00:00Z,ANA,24,STL,19,4,1,away win REG,left,Enterprise Center,-6,America/Chicago
+2019020713,20192020,2020-01-14T01:00:00Z,ANA,24,STL,19,1,4,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020990,20192020,2020-02-28T01:00:00Z,NYI,2,STL,19,2,3,home win OT,left,Enterprise Center,-6,America/Chicago
+2019020358,20192020,2019-11-24T01:00:00Z,NSH,18,STL,19,4,2,away win REG,left,Enterprise Center,-6,America/Chicago
+2019020896,20192020,2020-02-15T20:00:00Z,NSH,18,STL,19,4,3,away win REG,left,Enterprise Center,-6,America/Chicago
+2019020411,20192020,2019-12-01T01:00:00Z,PIT,5,STL,19,2,5,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020726,20192020,2020-01-16T01:00:00Z,PHI,4,STL,19,4,3,away win OT,left,Enterprise Center,-6,America/Chicago
+2019020131,20192020,2019-10-22T00:00:00Z,COL,21,STL,19,1,3,home win REG,left,Enterprise Center,-5,America/Chicago
+2019020522,20192020,2019-12-17T01:00:00Z,COL,21,STL,19,2,5,home win REG,left,Enterprise Center,-6,America/Chicago
+2019020126,20192020,2019-10-20T23:00:00Z,WSH,15,CHI,16,5,3,away win REG,right,United Center,-5,America/Chicago
+2019020243,20192020,2019-11-08T01:30:00Z,VAN,23,CHI,16,2,5,home win REG,right,United Center,-6,America/Chicago
+2019020054,20192020,2019-10-11T00:30:00Z,SJS,28,CHI,16,5,4,away win REG,right,United Center,-6,America/Chicago
+2019021079,20192020,2020-03-12T00:00:00Z,SJS,28,CHI,16,2,6,home win REG,right,United Center,-6,America/Chicago
+2019020765,20192020,2020-01-22T01:30:00Z,FLA,13,CHI,16,4,3,away win REG,right,United Center,-6,America/Chicago
+2019020069,20192020,2019-10-12T23:00:00Z,WPG,52,CHI,16,3,2,away win OT,right,United Center,-6,America/Chicago
+2019020758,20192020,2020-01-20T00:00:00Z,WPG,52,CHI,16,2,5,home win REG,right,United Center,-6,America/Chicago
+2019020314,20192020,2019-11-18T00:00:00Z,BUF,7,CHI,16,1,4,home win REG,right,United Center,-6,America/Chicago
+2019020517,20192020,2019-12-16T00:00:00Z,MIN,30,CHI,16,3,5,home win REG,right,United Center,-6,America/Chicago
+2019020826,20192020,2020-02-06T01:00:00Z,BOS,6,CHI,16,2,1,away win OT,right,United Center,-6,America/Chicago
+2019020672,20192020,2020-01-08T01:30:00Z,CGY,20,CHI,16,2,1,away win REG,right,United Center,-6,America/Chicago
+2019020465,20192020,2019-12-09T00:00:00Z,ARI,53,CHI,16,4,3,away win OT,right,United Center,-6,America/Chicago
+2019020268,20192020,2019-11-11T00:00:00Z,TOR,10,CHI,16,4,5,home win REG,right,United Center,-6,America/Chicago
+2019020141,20192020,2019-10-23T00:30:00Z,VGK,54,CHI,16,2,1,away win OT,right,United Center,-5,America/Chicago
+2019020578,20192020,2019-12-24T01:30:00Z,NJD,1,CHI,16,7,1,away win REG,right,United Center,-6,America/Chicago
+2019020927,20192020,2020-02-20T01:00:00Z,NYR,3,CHI,16,6,3,away win REG,right,United Center,-6,America/Chicago
+2019020341,20192020,2019-11-22T01:30:00Z,TBL,14,CHI,16,4,2,away win REG,right,United Center,-6,America/Chicago
+2019020110,20192020,2019-10-19T00:30:00Z,CBJ,29,CHI,16,2,3,home win OT,right,United Center,-5,America/Chicago
+2019020326,20192020,2019-11-20T01:30:00Z,CAR,12,CHI,16,4,2,away win REG,right,United Center,-6,America/Chicago
+2019020376,20192020,2019-11-27T01:00:00Z,DAL,25,CHI,16,0,3,home win REG,right,United Center,-6,America/Chicago
+2019020657,20192020,2020-01-06T00:30:00Z,DET,17,CHI,16,2,4,home win REG,right,United Center,-6,America/Chicago
+2019020175,20192020,2019-10-27T23:00:00Z,LAK,26,CHI,16,1,5,home win REG,right,United Center,-5,America/Chicago
+2019020422,20192020,2019-12-03T01:30:00Z,STL,19,CHI,16,4,0,away win REG,right,United Center,-6,America/Chicago
+2019021061,20192020,2020-03-08T23:30:00Z,STL,19,CHI,16,2,0,away win REG,right,United Center,-5,America/Chicago
+2019020084,20192020,2019-10-15T00:30:00Z,EDM,22,CHI,16,1,3,home win REG,right,United Center,-6,America/Chicago
+2019021040,20192020,2020-03-06T01:30:00Z,EDM,22,CHI,16,3,4,home win REG,right,United Center,-5,America/Chicago
+2019020699,20192020,2020-01-12T01:30:00Z,ANA,24,CHI,16,2,4,home win REG,right,United Center,-6,America/Chicago
+2019021025,20192020,2020-03-04T01:30:00Z,ANA,24,CHI,16,2,6,home win REG,right,United Center,-6,America/Chicago
+2019020589,20192020,2019-12-28T01:30:00Z,NYI,2,CHI,16,2,5,home win REG,right,United Center,-6,America/Chicago
+2019020684,20192020,2020-01-10T01:30:00Z,NSH,18,CHI,16,5,2,away win REG,right,United Center,-6,America/Chicago
+2019020943,20192020,2020-02-22T01:30:00Z,NSH,18,CHI,16,1,2,home win OT,right,United Center,-6,America/Chicago
+2019020151,20192020,2019-10-25T00:30:00Z,PHI,4,CHI,16,4,1,away win REG,right,United Center,-5,America/Chicago
+2019020394,20192020,2019-11-29T21:00:00Z,COL,21,CHI,16,5,2,away win REG,right,United Center,-6,America/Chicago
+2019020536,20192020,2019-12-19T01:00:00Z,COL,21,CHI,16,4,1,away win REG,right,United Center,-6,America/Chicago
+2019020787,20192020,2020-02-01T00:30:00Z,WSH,15,OTT,9,5,3,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020988,20192020,2020-02-28T00:30:00Z,VAN,23,OTT,9,2,5,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020172,20192020,2019-10-27T23:00:00Z,SJS,28,OTT,9,2,5,home win REG,left,Canadian Tire Centre,-4,America/New_York
+2019020632,20192020,2020-01-03T00:30:00Z,FLA,13,OTT,9,6,3,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020937,20192020,2020-02-21T00:30:00Z,WPG,52,OTT,9,5,1,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020575,20192020,2019-12-24T00:30:00Z,BUF,7,OTT,9,1,3,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020922,20192020,2020-02-19T00:30:00Z,BUF,7,OTT,9,4,7,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020693,20192020,2020-01-12T00:00:00Z,MTL,8,OTT,9,2,1,away win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020952,20192020,2020-02-23T00:00:00Z,MTL,8,OTT,9,3,0,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020079,20192020,2019-10-14T17:00:00Z,MIN,30,OTT,9,2,0,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020378,20192020,2019-11-28T00:00:00Z,BOS,6,OTT,9,2,1,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020470,20192020,2019-12-10T00:30:00Z,BOS,6,OTT,9,2,5,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020746,20192020,2020-01-18T21:00:00Z,CGY,20,OTT,9,2,5,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020885,20192020,2020-02-14T00:30:00Z,ARI,53,OTT,9,2,3,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020720,20192020,2020-01-15T00:30:00Z,CHI,16,OTT,9,3,2,away win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020901,20192020,2020-02-16T00:00:00Z,TOR,10,OTT,9,4,2,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020734,20192020,2020-01-17T00:30:00Z,VGK,54,OTT,9,4,2,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020603,20192020,2019-12-29T22:00:00Z,NJD,1,OTT,9,4,3,away win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020769,20192020,2020-01-28T00:30:00Z,NJD,1,OTT,9,4,3,away win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020020,20192020,2019-10-05T23:00:00Z,NYR,3,OTT,9,4,1,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020347,20192020,2019-11-23T00:30:00Z,NYR,3,OTT,9,1,4,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020062,20192020,2019-10-12T20:00:00Z,TBL,14,OTT,9,2,4,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020648,20192020,2020-01-05T00:00:00Z,TBL,14,OTT,9,5,3,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020501,20192020,2019-12-14T18:00:00Z,CBJ,29,OTT,9,3,4,home win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020255,20192020,2019-11-10T00:00:00Z,CAR,12,OTT,9,1,4,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020910,20192020,2020-02-16T23:00:00Z,DAL,25,OTT,9,3,4,home win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020143,20192020,2019-10-23T23:30:00Z,DET,17,OTT,9,2,5,home win REG,left,Canadian Tire Centre,-4,America/New_York
+2019021005,20192020,2020-03-01T00:00:00Z,DET,17,OTT,9,3,4,home win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020242,20192020,2019-11-08T00:30:00Z,LAK,26,OTT,9,2,3,home win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020051,20192020,2019-10-10T23:30:00Z,STL,19,OTT,9,6,4,away win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020819,20192020,2020-02-05T00:30:00Z,ANA,24,OTT,9,3,2,away win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020158,20192020,2019-10-25T23:30:00Z,NYI,2,OTT,9,4,2,away win REG,left,Canadian Tire Centre,-4,America/New_York
+2019021038,20192020,2020-03-06T00:30:00Z,NYI,2,OTT,9,3,4,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020542,20192020,2019-12-20T00:30:00Z,NSH,18,OTT,9,4,5,home win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020298,20192020,2019-11-16T00:30:00Z,PHI,4,OTT,9,1,2,home win REG,left,Canadian Tire Centre,-5,America/New_York
+2019020557,20192020,2019-12-22T00:00:00Z,PHI,4,OTT,9,5,4,away win OT,left,Canadian Tire Centre,-5,America/New_York
+2019020833,20192020,2020-02-07T00:30:00Z,COL,21,OTT,9,4,1,away win REG,left,Canadian Tire Centre,-5,America/New_York
