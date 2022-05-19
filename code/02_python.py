@@ -51,10 +51,14 @@ starters
 ####################################
 # How to figure things out in Python
 ####################################
+foo = 'sidney crosby'  # alt if 'sidnedy crosby'? doesn't work in REPL
+
 'sidney crosby'.capitalize()
 
 '  sidney crosby'
 'sidney crosby'
+
+'  sidney crosby'.lstrip()
 
 #######
 # bools
@@ -109,6 +113,11 @@ first_line_dict = {'lw': 'alex ovechkin',
 
 first_line_dict['lw']
 first_line_dict['rd'] = 'john carlson'
+
+first_line_dict
+
+pos = 'lw'
+first_line_dict[pos]
 
 # unpacking
 lw, rw = ['alex ovechkin', 'anthony mantha']
@@ -170,6 +179,10 @@ first_line_a_only = [
     x for x in first_line if x.startswith('a')]
 first_line_a_only
 
+'alex ovechkin'.startswith('a')
+'nicklas backstrom'.startswith('a')
+'anthony mantha'.startswith('a')
+
 first_line_a_only_title = [
     x.title() for x in first_line if x.startswith('a')]
 first_line_a_only_title
@@ -192,7 +205,12 @@ sum([salary for _, salary in salary_per_player.items()])
 ###########
 len(['alex ovechkin', 'nicklas backstrom', 'anthony mantha'])
 
-def team_pts(wins, ot_losses, losses):
+n_goals = len(['alex ovechkin', 'nicklas backstrom', 'anthony mantha'])
+n_goals
+
+4 + len(['alex ovechkin', 'nicklas backstrom', 'anthony mantha'])
+
+def team_pts(wins, losses, ot_losses):
     """
     multi line strings in python are between three double quotes
 
@@ -205,10 +223,10 @@ def team_pts(wins, ot_losses, losses):
 
 team_pts(62, 16, 4)
 
-# this gives an error: wins is only defined inside rec_pts
+# this gives an error: wins is only defined inside team_pts
 # print(wins)
 
-def team_pts_noisy(wins, ot_losses, losses):
+def team_pts_noisy(wins, losses, ot_losses):
     """
     this function takes number of wins, overtime losses, and regular season
     losses and returns team points
@@ -243,10 +261,12 @@ roster_list
 # default values in functions
 #############################
 
+team_pts(wins=62, ot_losses=4, losses=16)
+
 # error: leaving off a function
 # team_pts(62, 16)
 
-def team_pts_wdefault(wins=0, ot_losses=0, losses=0):
+def team_pts_wdefault(wins=0, losses=0, ot_losses=0):
     """
     this function takes number of wins, overtime losses, and regular season
     losses and returns team points
@@ -256,32 +276,27 @@ def team_pts_wdefault(wins=0, ot_losses=0, losses=0):
 team_pts_wdefault(62, 16)
 team_pts_wdefault()
 
-def team_pts_flexible(wins=0, ot_losses=0, losses=0, ties=0, season=2021):
+def make_player_stats_dict(name, goals=0, assists=0, min_penalty=0,
+        maj_penalty=0): 
     """
-    this function takes number of wins, overtime losses, and regular season
-    losses and returns team points
-
-    it also can calculate historical team points based on year
+    this function takes some stats on a player and returns a dictionary
     """
+    return {'name': name,
+            'goals': goals,
+            'assists': assists,
+            'minor penalties': min_penalty,
+            'major penalties': maj_penalty,
+            'penalty minutes': 2*min_penalty + 5*maj_penalty}
 
-    if season >= 2005:
-        return 2*wins + 1*ot_losses
-    elif season < 1999:
-        return 2*wins + 1*ties
-    else:
-        return 2*wins + 1*ties + 1*ot_losses
+make_player_stats_dict('Ovechkin', 1, 2)
 
-team_pts_flexible(40, 35, 7, 1998)  # not doing what we want
+make_player_stats_dict('Ovechkin', 1, 2, 0, 1)
 
-40*2 + 7*1
+make_player_stats_dict('Ovechkin', 1, 2, 1, maj_penalty=1)
 
-40*2 + 1*35
+# error
+# make_player_stats_dict(maj_penalty=1, 'Ovechkin', 1, 2, 1)
 
-team_pts_flexible(40, 0, 35, 7, 1998)  # solution 1
-team_pts_flexible(wins=40, losses=35, ties=7, season=1998)  # solution 2
-
-# error: can't put key word argument before positional
-# team_pts_flexible(season=2020, 64, 16)
 
 #####################################
 # functions that take other functions
