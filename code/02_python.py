@@ -257,16 +257,27 @@ is_player_on_team('sidney crosby', roster_list)
 
 roster_list
 
-#############################
-# default values in functions
-#############################
+# function arguments
+## Positional vs Keyword Arguments
 
-team_pts(wins=62, ot_losses=4, losses=16)
+team_pts(62, 16, 4)
+team_pts(62, 4, 16)  # order matters!
 
-# error: leaving off a function
+team_pts?
+
+team_pts(wins=62, ot_losses=4, losses=16)  # keyword argumensts
+
+team_pts(62, losses=16, ot_losses=4)
+
+# error: keyword arguments can't come before positional arguments
+# team_pts(ot_losses=4, 62, 16)
+
+## Default Values for Arguments
+
+# error: leaving off an argument
 # team_pts(62, 16)
 
-def team_pts_wdefault(wins=0, losses=0, ot_losses=0):
+def team_pts_wdefault(wins, losses, ot_losses=0):
     """
     this function takes number of wins, overtime losses, and regular season
     losses and returns team points
@@ -274,28 +285,17 @@ def team_pts_wdefault(wins=0, losses=0, ot_losses=0):
     return 2*wins + 1*ot_losses
 
 team_pts_wdefault(62, 16)
-team_pts_wdefault()
 
-def make_player_stats_dict(name, goals=0, assists=0, min_penalty=0,
-        maj_penalty=0): 
-    """
-    this function takes some stats on a player and returns a dictionary
-    """
-    return {'name': name,
-            'goals': goals,
-            'assists': assists,
-            'minor penalties': min_penalty,
-            'major penalties': maj_penalty,
-            'penalty minutes': 2*min_penalty + 5*maj_penalty}
+# error: leaving out required argument
+# team_pts_wdefault(62)
 
-make_player_stats_dict('Ovechkin', 1, 2)
-
-make_player_stats_dict('Ovechkin', 1, 2, 0, 1)
-
-make_player_stats_dict('Ovechkin', 1, 2, 1, maj_penalty=1)
-
-# error
-# make_player_stats_dict(maj_penalty=1, 'Ovechkin', 1, 2, 1)
+# error: required arguments need to come first
+# def team_pts_wdefault_wrong(wins=0, losses, ot_losses=0):
+#     """
+#     this function takes number of wins, overtime losses, and regular season
+#     losses and returns team points
+#     """
+#     return 2*wins + 1*ot_losses
 
 
 #####################################
