@@ -9,31 +9,27 @@ import sqlite3
 # only need to run this section once
 
 # handle directories
-BB = '/Users/nathanbraun/fantasymath/basketball/nba_api/data'
-SO = '/Users/nathanbraun/fantasymath/soccer/worldcup/data'
-HY = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 # create connection
-conn = sqlite3.connect(path.join(HY, 'hockey.sqlite'))
+conn = sqlite3.connect(path.join(DATA_DIR, 'hockey-data.sqlite'))
 
 # load csv data
-player_game = pd.read_csv(path.join(HY, 'player_games.csv'))
-player = pd.read_csv(path.join(HY, 'players.csv'))
-
-game = pd.read_csv(path.join(HY, 'games.csv'))
-team = pd.read_csv(path.join(HY, 'teams.csv'))
+player_game = pd.read_csv(path.join(DATA_DIR, 'player_games.csv'))
+player = pd.read_csv(path.join(DATA_DIR, 'players.csv'))
+game = pd.read_csv(path.join(DATA_DIR, 'games.csv'))
+team = pd.read_csv(path.join(DATA_DIR, 'teams.csv'))
 
 # and write it to sql
 player_game.to_sql('player_game', conn, index=False, if_exists='replace')
 player.to_sql('player', conn, index=False, if_exists='replace')
-
 game.to_sql('game', conn, index=False, if_exists='replace')
 team.to_sql('team', conn, index=False, if_exists='replace')
 
 #########
 # Queries
 #########
-conn = sqlite3.connect(path.join(HY, 'hockey.sqlite'))
+conn = sqlite3.connect(path.join(DATA_DIR, 'hockey-data.sqlite'))
 
 # return entire player table
 df = pd.read_sql(
@@ -46,7 +42,7 @@ df.head()
 # return specific columns from player table + rename on the fly
 df = pd.read_sql(
     """
-    SELECT player_id, name, birth_date as bday, height_in as height, team
+    SELECT player_id, name, birth_date AS bday, team
     FROM player
     """, conn)
 df.head()
@@ -58,7 +54,7 @@ df.head()
 # basic filter, only rows where team is CHI
 df = pd.read_sql(
     """
-    SELECT player_id, name, nationality, pos, team
+    SELECT player_id, name, nationality, pos
     FROM player
     WHERE team = 'CHI'
     """, conn)
@@ -96,7 +92,7 @@ df = pd.read_sql(
     """
     SELECT player_id, name, nationality, pos
     FROM player
-    WHERE pos NOT IN ('LW', 'RW', 'C')
+    WHERE nationality NOT IN ('USA', 'CAN')
     """, conn)
 df.head()
 
@@ -256,6 +252,7 @@ df = pd.read_sql(
         WHERE game.away_team_id = player.team_id) AS a
     LEFT JOIN player_game AS b ON a.game_id = b.game_id AND a.player_id = b.player_id
     """, conn)
+
 df.loc[df['name'] == 'S. Crosby']
 
 # game = pd.read_sql(

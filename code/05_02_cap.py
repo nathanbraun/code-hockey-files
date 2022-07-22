@@ -51,10 +51,12 @@ df.head()
 df.columns = ['team', 'forwards', 'defense', 'goalies', 'signed', 'needed',
               'payroll', 'cap', 'space', 'space_per_player']
 
-df['payroll'].describe()
+df.head()
 
 # could do
-df['papyroll'] = df['cap'].str.replace('$','').str.replace(',','')
+df['cap'].head()
+df['cap'] = df['cap'].str.replace('$','').str.replace(',','')
+df['cap'].head()
 
 # that's fine - but should be on lookout for better ways
 
@@ -73,15 +75,14 @@ df2 = DataFrame([parse_row_plus(row) for row in rows[1:]])
 df2.columns = ['team', 'forwards', 'defense', 'goalies', 'signed', 'needed',
                'payroll', 'cap', 'space', 'space_per_player']
 
-# put it in a dataframe
-df2['payroll'].describe()
+df2.head()
+
+# error
+# df2['payroll']/1000000
 
 int_cols = [x for x in df2.columns if x != 'team']
 
 df2[int_cols] = df2[int_cols].astype(int)
 
-# done
-df2.head()
-
-df2['payroll'].describe()/1000000
+df2['payroll'].head()/1000000
 

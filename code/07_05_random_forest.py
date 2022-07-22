@@ -7,31 +7,31 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split, cross_val_score
 from os import path
 
-DATA_DIR = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 df = pd.read_csv(path.join(DATA_DIR, 'shots.csv'))
-
+df = df.loc[df['shot_type'].notnull()]
 
 cont_vars = ['dist', 'st_x', 'st_y', 'period_time_remaining', 'empty']
-
-cat_vars = ['pos', 'hand', 'shot_type', 'period']
+cat_vars = ['pos', 'hand', 'period']
 
 df_cat = pd.concat([pd.get_dummies(df[x]) for x in cat_vars], axis=1)
 
-df = pd.concat([df, df_cat], axis=1)
+df_all = pd.concat([df[cont_vars], df_cat], axis=1)
+df_all['shot_type'] = df['shot_type']
+df_all.sample(10)
 
-df['ln_dist'] = np.log(df['dist'].apply(lambda x: max(x, 0.5)))
-
+yvar = 'shot_type'
 xvars = cont_vars + list(df_cat.columns)
-yvar = 'goal'
+xvars
 
-train, test = train_test_split(df, test_size=0.20)
+train, test = train_test_split(df_all, test_size=0.20)
 
 model = RandomForestClassifier(n_estimators=100)
 model.fit(train[xvars], train[yvar])
 
-test['goal_hat'] = model.predict(test[xvars])
-test['correct'] = (test['goal_hat'] == test['goal'])
+test['shot_type_hat'] = model.predict(test[xvars])
+test['correct'] = (test['shot_type_hat'] == test['shot_type'])
 test['correct'].mean()
 
 model.predict_proba(test[xvars])
@@ -42,29 +42,23 @@ probs = DataFrame(model.predict_proba(test[xvars]),
 probs.head()
 probs.columns = ['pmiss', 'pmake']
 
-results = pd.concat([
-    test[['name', 'shot_type', 'dist', 'goal', 'goal_hat',
-          'correct']],
-    probs[['pmake']]], axis=1)
+results = pd.concat([test[['shot_type', 'shot_type_hat',
+    'correct']], probs], axis=1)
 
 
-results.sample(5)
-
-results.groupby(['shot_type', 'goal'])['correct'].mean().to_frame().unstack()
-
-results['pmake_bin'] = pd.cut(results['pmake'], 10)
-
-results.groupby('pmake_bin')['goal'].mean()
+results.groupby('shot_type')[['correct', 'backhand', 'deflected', 'slap',
+    'snap', 'tip-in', 'wrap-around', 'wrist']].mean().round(2)
 
 # cross validation
 model = RandomForestClassifier(n_estimators=100)
-scores = cross_val_score(model, df[xvars], df[yvar], cv=10)
+scores = cross_val_score(model, df_all[xvars], df_all[yvar], cv=10)
 
 scores
 scores.mean()
 
 # feature importance
-model.fit(df[xvars], df[yvar])  # running model fitting on entire dataset
+model = RandomForestClassifier(n_estimators=100)
+model.fit(df_all[xvars], df_all[yvar])  # running model fitting on entire dataset
 Series(model.feature_importances_, xvars).sort_values(ascending=False)
 
 # homework: add in some player info?

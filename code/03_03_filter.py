@@ -6,13 +6,11 @@ from os import path
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-BB = '/Users/nathanbraun/fantasymath/basketball/nba_api/data'
-SO = '/Users/nathanbraun/fantasymath/soccer/worldcup/data'
-HY = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 # note: we're passing the index_col argument, which immediately setting the
 # index to be the player_id column
-dfp = pd.read_csv(path.join(HY, 'players.csv'), index_col='player_id')
+dfp = pd.read_csv(path.join(DATA_DIR, 'players.csv'), index_col='player_id')
 
 # Filtering
 
@@ -33,8 +31,8 @@ is_a_rw.head()
 dfp_rw = dfp.loc[is_a_rw]
 
 dfp_rw[['name', 'nationality', 'pos', 'hand']].head()
-dfp_lw = dfp.loc[dfp['pos'] == 'LW']
 
+dfp_lw = dfp.loc[dfp['pos'] == 'LW']
 dfp_lw[['name', 'nationality', 'pos', 'hand']].head()
 
 is_a_d = dfp['pos'] == 'D'
@@ -52,9 +50,6 @@ dfp.duplicated().head()
 
 dfp['pos'].duplicated().head()
 
-dfp.drop_duplicates('pos')
-dfp.loc[~dfp['pos'].duplicated()]
-
 # Combining filtering with changing columns
 dfp['height_local'] = np.nan
 dfp.loc[dfp['nationality'] == 'USA', 'height_local'] = dfp['height_in']
@@ -65,9 +60,9 @@ dfp[['name', 'nationality', 'height_local', 'height_in', 'height_cm']].sample(5)
 # Query
 dfp.query("pos == 'C'").head()
 
-dfp['is_a_g'] = dfp['pos'] == 'G'
+dfp['is_a_d'] = dfp['pos'] == 'D'
 
-dfp.query("is_a_g").head()
+dfp.query("is_a_d").head()
 
 dfp.query("birth_state_prov.isnull()")[['name', 'nationality', 'birth_state_prov']].head()
 

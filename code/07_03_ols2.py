@@ -5,7 +5,7 @@ from textwrap import dedent
 import statsmodels.formula.api as smf
 from os import path
 
-DATA_DIR = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 df = pd.read_csv(path.join(DATA_DIR, 'shots.csv'))
 
@@ -17,8 +17,10 @@ df = pd.read_csv(path.join(DATA_DIR, 'shots.csv'))
 # deflected       158
 # wrap-around      70
 
+df['dist_sq'] = df['dist'] ** 2
 df['goal'] = df['goal'].astype(int)
-shots = ['wrist', 'snap', 'slap', 'backhand', 'tip-in', 'deflected', 'wrap-around']
+df['slap'] = df['shot_type'] == 'slap'
+# shots = ['wrist', 'snap', 'slap', 'backhand', 'tip-in', 'deflected', 'wrap-around']
 
 #########################
 # holding things constant
@@ -32,6 +34,8 @@ model = smf.ols(formula=
 results = model.fit()
 results.summary2()
 
+df.groupby('slap')['dist'].mean()
+
 # fine but slap shots are far away
 model = smf.ols(formula=
         """
@@ -40,19 +44,24 @@ model = smf.ols(formula=
 results = model.fit()
 results.summary2()
 
+0.1224 -0.0015*40
+0.1224 -0.0015*40 + 0.0238
+
 ###############
 # fixed effects
 ###############
-pd.get_dummies(df['shot_type']).head()
+pd.get_dummies(df['pos']).head()
 
-model = smf.ols(formula="goal ~ C(shot_type) + dist", data=df)
+model = smf.ols(formula="goal ~ C(shot_type) + dist + dist_sq", data=df)
 results = model.fit()
 results.summary2()
 
 model = smf.ols(
-    formula="goal ~ C(shot_type, Treatment(reference='wrist')) + dist", data=df)
+    formula="goal ~ C(shot_type, Treatment(reference='wrist')) + dist + dist_sq", data=df)
 results = model.fit()
 results.summary2()
+
+df['shot_type'].value_counts()
 
 ####################
 # squaring variables
@@ -81,9 +90,11 @@ results.summary2()
 #############
 # intractions
 #############
+df['is_backhand'] = df['shot_type'] == 'backhand'
+
 model = smf.ols(formula=
         """
-        goal ~ C(shot_type) + ln_dist + ln_dist:slap
+        goal ~ dist + is_backhand + dist:is_backhand
         """, data=df)
 results = model.fit()
 results.summary2()
@@ -93,16 +104,16 @@ results.summary2()
 #######
 model = smf.logit(formula=
         """
-        goal ~ slap + ln_dist + ln_dist:slap
+        goal ~ dist + is_backhand + dist:is_backhand
         """, data=df)
 logit_results = model.fit()
 logit_results.summary2()
 
-def prob_made(dist, is_slap):
-    b0, b1, b2, b3 = logit_results.params
-    value = (b0 + b1*is_slap + b2*np.log(dist) + b3*np.log(dist)*is_slap)
+def prob_goal_logit(dist, is_backhand):
+    b0, b1, b2, b3  = logit_results.params
+    value = (b0 + b1*is_backhand + b2*dist + b3*dist*is_backhand)
     return 1/(1 + math.exp(-value))
 
-prob_made(20, 1)
-prob_made(100, 0)
-prob_made(100, 1)
+prob_goal_logit(20, 1)
+prob_goal_logit(100, 0)
+prob_goal_logit(100, 1)

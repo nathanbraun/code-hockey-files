@@ -5,14 +5,12 @@ import pandas as pd
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-BB = '/Users/nathanbraun/fantasymath/basketball/nba_api/data'
-SO = '/Users/nathanbraun/fantasymath/soccer/worldcup/data'
-HY = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 ##############
 # Loading data
 ##############
-shots = pd.read_csv(path.join(HY, 'shots.csv'))
+shots = pd.read_csv(path.join(DATA_DIR, 'shots.csv'))
 
 type(shots)
 
@@ -41,33 +39,35 @@ shots[['name', 'pos', 'hand', 'goal']].head()
 
 type(shots[['name', 'pos', 'hand', 'goal']])
 
-# shots['name', 'pos', 'hand', 'goal'].head() # commented out because it throws an error
+# commented out because it throws an error
+# shots['name', 'pos', 'hand', 'goal'].head() 
 
 ##########
 # Indexing
 ##########
 shots[['name', 'pos', 'hand', 'goal']].head()
 
-shots.set_index('play_id').head()
+shots.set_index('shot_id').head()
 
 # Copies and the inplace argument
-shots.head()  # note: player_id not the index, even though we just set it
+shots.head()  # note: shot_id not the index, even though we just set it
 
-shots.set_index('play_id', inplace=True)
-shots.head()  # now player_id is index
+shots.set_index('shot_id', inplace=True)
+shots.head()  # now shot_id is index
 
 # alternate to using inplace, reassign adp
 # reload shots with default 0, 1, ... index
-shots = pd.read_csv(path.join(HY, 'shots.csv'))
-shots = shots.set_index('play_id')
-shots.head()  # now player_id is index
+shots = pd.read_csv(path.join(DATA_DIR, 'shots.csv'))
+shots = shots.set_index('shot_id')
+shots.head()  # now shot_id is index
 
 shots.reset_index().head()
 
 #############################
 # Indexes keep things aligned
 #############################
-shots_ot = shots.loc[shots['period_type'] == 'OVERTIME', ['name', 'hand', 'goal']]
+shots_ot = shots.loc[shots['period_type'] == 'OVERTIME', ['name', 'period',
+    'hand', 'goal']]
 shots_ot.head()
 
 shots_ot.sort_values('name', inplace=True)
@@ -83,7 +83,7 @@ shots['pos'].head()
 #################
 # Outputting data
 #################
-shots_ot.to_csv(path.join(HY, 'shots_ot.csv'))
+shots_ot.to_csv(path.join(DATA_DIR, 'shots_ot.csv'))
 
-shots_ot.to_csv(path.join(HY, 'shots_ot_no_index.csv'), index=False)
+shots_ot.to_csv(path.join(DATA_DIR, 'shots_ot_no_index.csv'), index=False)
 

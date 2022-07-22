@@ -5,12 +5,10 @@ from os import path
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-BB = '/Users/nathanbraun/fantasymath/basketball/nba_api/data'
-SO = '/Users/nathanbraun/fantasymath/soccer/worldcup/data'
-HY = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 # load adp data
-pg = pd.read_csv(path.join(HY, 'player_games.csv'))
+pg = pd.read_csv(path.join(DATA_DIR, 'player_games.csv'))
 
 pg[['game_id', 'player_id', 'date']] = (
     pg[['game_id', 'player_id', 'date']].astype(str))
@@ -35,7 +33,7 @@ pg['defender_scored'].sum()
 
 pg['time_ice'].min()
 
-(pg[['goals', 'assists']] > 0).any(axis=1)
+(pg[['goals', 'assists']] > 2).any(axis=1)
 
 (pg[['goals', 'assists']] > 2).any(axis=1).sum()
 

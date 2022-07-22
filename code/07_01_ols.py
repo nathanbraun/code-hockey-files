@@ -2,7 +2,7 @@ import pandas as pd
 import statsmodels.formula.api as smf
 from os import path
 
-DATA_DIR = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 ###################
 # linear regression

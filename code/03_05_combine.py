@@ -5,21 +5,19 @@ from os import path
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-BB = '/Users/nathanbraun/fantasymath/basketball/nba_api/data'
-SO = '/Users/nathanbraun/fantasymath/soccer/worldcup/data'
-HY = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 # TODO standardize pp/sh terminology
 
-pg = pd.read_csv(path.join(HY, 'player_games.csv'))  # player-game
-games = pd.read_csv(path.join(HY, 'games.csv'))  # game info
-player = pd.read_csv(path.join(HY, 'players.csv')) # player info
+pg = pd.read_csv(path.join(DATA_DIR, 'player_games.csv'))  # player-game
+games = pd.read_csv(path.join(DATA_DIR, 'games.csv'))  # game info
+player = pd.read_csv(path.join(DATA_DIR, 'players.csv')) # player info
 
 # player game data
-pg[['name', 'team', 'shots', 'goals']].head(5)
+pg[['player_id', 'game_id', 'name', 'team', 'shots', 'goals']].head(5)
 
-# game table
-player.head()
+# player table
+player[['player_id', 'name', 'team', 'hand']].head()
 
 # Merge Question 1. What columns are you joining on?
 pd.merge(pg, player[['player_id', 'hand']], on='player_id').head()
@@ -37,7 +35,7 @@ player['player_id'].duplicated().any()
 
 combined['player_id'].duplicated().any()
 
-pd.merge(combined, player).head()
+pd.merge(combined, player[['player_id', 'name', 'team', 'hand']]).head()
 
 # pd.merge(combined, player, validate='1:1')  # this will fail since it's 1:m
 
@@ -97,6 +95,8 @@ pp_df = (pg.loc[pg['time_ice_pp'] > 0,
 sh_df = (pg.loc[pg['time_ice_sh'] > 0,
           ['game_id', 'player_id', 'time_ice_sh']]
          .set_index(['game_id', 'player_id']))
+
+pp_df.head()
 
 pd.concat([pp_df, sh_df], axis=1).head()
 

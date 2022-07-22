@@ -5,12 +5,10 @@ from os import path
 # stored
 # on Windows it might be something like 'C:/mydir'
 
-BB = '/Users/nathanbraun/fantasymath/basketball/nba_api/data'
-SO = '/Users/nathanbraun/fantasymath/soccer/worldcup/data'
-HY = '/Users/nathanbraun/fantasymath/hockey/data'
+DATA_DIR = './data'
 
 # load player-game data
-pg = pd.read_csv(path.join(HY, 'player_games.csv'))
+pg = pd.read_csv(path.join(DATA_DIR, 'player_games.csv'))
 
 # book picks up here:
 
@@ -84,16 +82,17 @@ pg.rename(columns={'fo': 'faceoffs'}, inplace=True)
 
 # missing data
 pg['shot_pct'] = pg['goals']/pg['shots']
+pg[['name', 'team', 'goals', 'shots', 'shot_pct']].sample(5)
 
 pg['shot_pct'].isnull().head(10)
 pg['shot_pct'].notnull().head(10)
 
-pg['shot_pct'].fillna(-99).head()
+pg['shot_pct'].fillna(-99).head(10)
 
 # Changing column types
 pg['date'].sample(5)
 
-date = '20200227'
+date = '20200215'
 
 year = date[0:4]
 month = date[4:6]
