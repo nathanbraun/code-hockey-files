@@ -23,5 +23,11 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.0.3 (2022-12-02)
+Fix weird kg player units. Reword for clarity
+
+### v0.0.2 (2022-07-22)
+Minor typos.
+
 ### v0.0.1 (2022-07-22)
 Adding this README!
