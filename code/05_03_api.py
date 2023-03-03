@@ -52,6 +52,7 @@ def flatten_team(nested):
     return flat
 
 df_teams = DataFrame([flatten_team(x) for x in teams_json['teams']])
+
 df_teams.head()
 
 #########

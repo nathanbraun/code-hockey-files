@@ -56,8 +56,8 @@ pg['is_not_a_w'] = ~((pg['pos'] == 'LW') | (pg['pos'] == 'RW'))
 # Applying functions to columns
 def is_e_metro(team):
   """
-  Takes some string named pos ('QB', 'K', 'RT' etc) and checks
-  whether it's a skill position (RB, WR, TE).
+  Takes some string named team ('WSH', 'CHI' etc) and checks whether they're in
+  the Metropolis division.
   """
   return team in ['WSH', 'NYI', 'PIT', 'CAR', 'CBJ', 'PHI', 'NYR', 'NJD']
 

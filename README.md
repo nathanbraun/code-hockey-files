@@ -23,6 +23,9 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.0.4 (2023-03-03)
+Fix some misc other sport references (thanks Emil!).
+
 ### v0.0.3 (2022-12-02)
 Fix weird kg player units. Reword for clarity
 
