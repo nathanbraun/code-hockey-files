@@ -29,7 +29,7 @@ g = sns.relplot(data=dfs, x='st_x', y='st_y', kind='scatter', s=10)
 g.set(yticks=[], xticks=[], xlabel=None, ylabel=None)
 g.despine(left=True, bottom=True)
 
-map_img = mpimg.imread('hockey_rink.png')
+map_img = mpimg.imread(path.join(DATA_DIR, 'hockey_rink.png'))
 
 # scatter plot with rink overlay
 g = sns.relplot(data=dfs, x='st_x', y='st_y', kind='scatter', s=10)
