@@ -23,6 +23,9 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.0.6 (2023-03-23)
+Fix some misc typos, mostly in end of chapter problems (thanks again Emil!).
+
 ### v0.0.4 (2023-03-03)
 Fix some misc other sport references (thanks Emil!).
 

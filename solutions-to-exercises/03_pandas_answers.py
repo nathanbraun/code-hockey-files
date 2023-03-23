@@ -231,8 +231,8 @@ dfp[['team', 'birth_city', 'birth_state_prov']].duplicated().sum()  # 34
 # flags ALL dups (not just 2nd) because passing keep=False
 dups = dfp[['team', 'birth_city', 'birth_state_prov']].duplicated(keep=False)
 
-dftg_fg_dup = dfp.loc[dups]
-dftg_fg_no_dup = dfp.loc[~dups]
+dfp_dups = dfp.loc[dups]
+dfp_nodups = dfp.loc[~dups]
 
 #######
 # 3.3.5
@@ -312,8 +312,10 @@ dftg.groupby('team')['game_id'].sum()
 """
 Count counts the number of non missing (non `np.nan`) values. This is different
 than `sum` which adds up the values in all of the columns. The only time
-`count` and `sum` would return the same thing is if you had a column filled
-with 1s without any missing values.
+`count` and `sum` would reliably return the same thing is if you had a column
+filled with 1s without any missing values.
+
+We want to use count. Sum doesn't make any sense.
 """
 
 #######

@@ -57,7 +57,7 @@ pg['is_not_a_w'] = ~((pg['pos'] == 'LW') | (pg['pos'] == 'RW'))
 def is_e_metro(team):
   """
   Takes some string named team ('WSH', 'CHI' etc) and checks whether they're in
-  the Metropolis division.
+  the Metropolitan division.
   """
   return team in ['WSH', 'NYI', 'PIT', 'CAR', 'CBJ', 'PHI', 'NYR', 'NJD']
 
