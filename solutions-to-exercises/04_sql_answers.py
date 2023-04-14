@@ -39,6 +39,6 @@ df  = pd.read_sql(
         player AS p
     WHERE
         t.team = pg.team AND
-        t.division = 'Central' AND
+        team.division = 'Atlantic' AND
         p.player_id = pg.player_id
     """, conn)

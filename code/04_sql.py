@@ -65,7 +65,7 @@ df = pd.read_sql(
     """
     SELECT player_id, name, nationality, pos, team
     FROM player
-    WHERE team = 'CHI' AND pos == 'LW'
+    WHERE team = 'CHI' AND pos = 'LW'
     """, conn)
 df.head()
 
@@ -74,7 +74,7 @@ df = pd.read_sql(
     """
     SELECT player_id, name, nationality, pos, team
     FROM player
-    WHERE team = 'BOS' OR pos == 'LW'
+    WHERE team = 'BOS' OR pos = 'LW'
     """, conn)
 df.head()
 

@@ -342,11 +342,13 @@ df_name = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'name.csv'))
 df_fo = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'fo.csv'))
 df_poss = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'poss.csv'))
 df_shot = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'shot.csv'))
+df_hit = pd.read_csv(path.join(DATA_DIR, 'problems/combine1', 'hit.csv'))
 
 # b
 df_comb1 = pd.merge(df_name, df_fo, how='left')
 df_comb1 = pd.merge(df_comb1, df_poss, how='left')
 df_comb1 = pd.merge(df_comb1, df_shot, how='left')
+df_comb1 = pd.merge(df_comb1, df_hit, how='left')
 
 df_comb1 = df_comb1.fillna(0)
 
@@ -354,7 +356,8 @@ df_comb1 = df_comb1.fillna(0)
 df_comb2 = pd.concat([df_name.set_index(['player_id', 'game_id']),
                       df_fo.set_index(['player_id', 'game_id']),
                       df_poss.set_index(['player_id', 'game_id']),
-                      df_shot.set_index(['player_id', 'game_id'])], join='outer',
+                      df_shot.set_index(['player_id', 'game_id']),
+                      df_hit.set_index(['player_id', 'game_id'])], join='outer',
                      axis=1)
 
 df_comb2 = df_comb2.fillna(0)
