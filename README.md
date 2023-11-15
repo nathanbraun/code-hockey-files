@@ -23,6 +23,9 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.0.11 (2023-11-15)
+Fixed some typos.
+
 ### v0.0.7 (2023-04-14)
 Fixed end of chapter sql problems (you're the man Emil!).
 
