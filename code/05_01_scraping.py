@@ -38,20 +38,24 @@ tr_tag
 type(tr_tag)
 
 table_tag = html_soup.find('table')
+table_tag
 type(table_tag)
 
 td_tag = html_soup.find('td')
 td_tag
 type(td_tag)
 
+# simple tags
 td_tag
 td_tag.string
 str(td_tag.string)
 
+# nested tags
 tr_tag.find_all('th')
 
 [str(x.string) for x in tr_tag.find_all('th')]
 
+# other notes on find_all and nested tags
 all_td_tags = table_tag.find_all('td')
 all_td_tags
 
