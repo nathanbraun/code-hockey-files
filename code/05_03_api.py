@@ -3,25 +3,185 @@ import json
 from pandas import DataFrame, Series
 import pandas as pd
 
-#######
-# teams
-#######
+#################
+# teams/standings
+#################
 
 # after looking at url in browser, get what you need in python
-teams_url = 'https://statsapi.web.nhl.com/api/v1/teams'
-teams_resp = requests.get(teams_url)
+standings_url = 'https://api-web.nhle.com/v1/standings/2024-01-21'
+standings_resp = requests.get(standings_url)
 
-teams_json = teams_resp.json()
+standings_json = standings_resp.json()
 
-# with open('./data/json/teams.json') as f:
+# with open('./data/json/standings.json') as f:
+#     standings_json = json.load(f)
+
+standings_json
+standings_json.keys()
+
+type(standings_json['standings'])
+standings_json['standings'][0]
+
+canucks_nested = standings_json['standings'][0]
+
+canucks_flat = {key: value for key, value in canucks_nested.items() if
+    type(value) not in (dict, list)}
+canucks_flat
+
+canucks_nested['teamName']
+
+canucks_flat['teamName'] = canucks_nested['teamName']['default']
+
+{key: value for key, value in canucks_nested.items() if
+    type(value) in (dict, list)}
+
+canucks_flat['placeName'] = canucks_nested['placeName']['default']
+canucks_flat['teamCommonName'] = canucks_nested['teamCommonName']['default']
+canucks_flat['teamAbbrev'] = canucks_nested['teamAbbrev']['default']
+
+def flatten_team(nested):
+    flat = {key: value for key, value in nested.items() if type(value) not in (dict, list)}
+    flat['teamName'] = nested['teamName']['default']
+    flat['placeName'] = nested['placeName']['default']
+    flat['teamCommonName'] = nested['teamCommonName']['default']
+    flat['teamAbbrev'] = nested['teamAbbrev']['default']
+
+    return flat
+
+df_teams = DataFrame([flatten_team(x) for x in standings_json['standings']])
+df_teams[['teamAbbrev', 'wins', 'losses', 'ties', 'goalFor', 'goalAgainst']].head(10)
+
+#########
+# rosters
+#########
+
+tor_roster_url = 'https://api-web.nhle.com/v1/roster/TOR/20232024'
+tor_roster_resp = requests.get(tor_roster_url)
+tor_roster_json = tor_roster_resp.json()
+
+# with open('./data/json/tor_roster.json') as f:
 #     teams_json = json.load(f)
 
-teams_json
-teams_json.keys()
+tor_roster_json.keys()
 
-type(teams_json['teams'])
+forward1 = tor_roster_json['forwards'][0]
+forward1
 
-teams_json['teams'][0]
+forward1_flat = {key: value for key, value in forward1.items()
+                 if type(value) not in (dict, list)}
+forward1_flat['firstName'] = forward1['firstName']['default']
+forward1_flat['lastName'] = forward1['lastName']['default']
+forward1_flat['birthCity'] = forward1['birthCity']['default']
+forward1_flat['birthStateProvince'] = forward1['birthStateProvince']['default']
+
+forward1_flat
+
+def flatten_player(nested):
+    flat = {key: value for key, value in nested.items() if type(value) not in
+        (dict, list)}
+    flat['firstName'] = nested['firstName']['default']
+    flat['lastName'] = nested['lastName']['default']
+    flat['birthCity'] = nested['birthCity']['default']
+    flat['birthStateProvince'] = nested['birthStateProvince']['default']
+
+    return flat
+
+# commented out because it returns an error
+# df_fwd = DataFrame([flatten_player(x) for x in tor_roster_json['forwards']])
+
+def flatten_player2(nested):
+    flat = {key: value for key, value in nested.items() if type(value) not in
+        (dict, list)}
+    flat['firstName'] = nested['firstName']['default']
+    flat['lastName'] = nested['lastName']['default']
+    flat['birthCity'] = nested['birthCity']['default']
+
+    if 'birthStateProvince' in nested.keys():
+        flat['birthStateProvince'] = nested['birthStateProvince']['default']
+
+    return flat
+
+df_fwd = DataFrame([flatten_player2(x) for x in tor_roster_json['forwards']])
+
+def roster_by_team1(team):
+    roster_url = f'https://api-web.nhle.com/v1/roster/{team}/20232024'
+    roster_resp = requests.get(roster_url)
+    roster_json = roster_resp.json()
+
+    df_fwd = DataFrame([flatten_player2(x) for x in roster_json['forwards']])
+    df_def = DataFrame([flatten_player2(x) for x in roster_json['defensemen']])
+    df_g = DataFrame([flatten_player2(x) for x in roster_json['goalies']])
+
+    return pd.concat([df_fwd, df_def, df_g], ignore_index=True)
+    
+df_tor = roster_by_team1('TOR')
+df_tor.drop('headshot', axis=1)
+
+df_chi = roster_by_team1('CHI')
+df_chi.drop('headshot', axis=1).head()
+
+def roster_by_team2(team):
+    roster_url = f'https://api-web.nhle.com/v1/roster/{team}/20232024'
+    roster_resp = requests.get(roster_url)
+    roster_json = roster_resp.json()
+
+    df_fwd = DataFrame([flatten_player2(x) for x in roster_json['forwards']])
+    df_def = DataFrame([flatten_player2(x) for x in roster_json['defensemen']])
+    df_g = DataFrame([flatten_player2(x) for x in roster_json['goalies']])
+
+    df_all = pd.concat([df_fwd, df_def, df_g], ignore_index=True)
+    df_all['team'] = team
+    return df_all
+
+df_sea = roster_by_team2('SEA')
+df_sea.drop('headshot', axis=1).head()
+
+league_rosters = pd.concat([roster_by_team2(x) for x in
+    df_teams['teamAbbrev']], ignore_index=True)
+
+league_rosters[['id', 'firstName', 'lastName', 'positionCode', 'team']].sample(5)
+
+###################
+# player stats data
+###################
+player_id = 8471675  # sidney crosby
+stats_url = f'https://api-web.nhle.com/v1/player/{player_id}/game-log/20232024/2'
+
+# print it out to view in browser
+stats_url
+
+crosby_resp = requests.get(stats_url)
+crosby_json = crosby_resp.json()
+
+# with open('./data/json/crosby.json') as f:
+#     crosby_json = json.load(f)
+
+crosby_stats_0 = crosby_json['stats'][0]['splits'][0]
+crosby_stats_0
+
+def flatten_player_year_stats(stats_dict):
+    stats_flat = stats_dict['stat']
+    stats_flat['season'] = stats_dict['season']
+    stats_flat['team'] = stats_dict['team']['name']
+    stats_flat['league'] = stats_dict['league']['name']
+    return stats_flat
+
+flatten_player_year_stats(crosby_stats_0)
+
+crosby_stats_all = DataFrame([flatten_player_year_stats(x) for x in
+    crosby_json['stats'][0]['splits']])
+crosby_stats_all[['season', 'team', 'league', 'assists', 'goals', 'games']]
+
+def hist_stats_by_player_year(player_id):
+    stats_url = f'https://statsapi.web.nhl.com/api/v1/people/{player_id}/stats?stats=yearByYear'
+    stats_resp = requests.get(stats_url)
+    stats_json = stats_resp.json()
+    return DataFrame([flatten_player_year_stats(x) for x in stats_json['stats'][0]['splits']])
+
+ovechkin_stats = hist_stats_by_player_year(8471214)
+ovechkin_stats[['season', 'team', 'league', 'assists', 'goals', 'games']].head()
+
+teams_json['data'][0]
 
 nj_nested = teams_json['teams'][0]
 
@@ -55,71 +215,11 @@ df_teams = DataFrame([flatten_team(x) for x in teams_json['teams']])
 
 df_teams.head()
 
-#########
-# rosters
-#########
-rosters_url = 'https://statsapi.web.nhl.com/api/v1/teams?expand=team.roster'
-rosters_resp = requests.get(rosters_url)
-rosters_json = rosters_resp.json()
-
-# with open('./data/json/rosters.json') as f:
-#     rosters_json = json.load(f)
-
-# specific instance
-nj = rosters_json['teams'][0]
-nj_roster = nj['roster']['roster']
-jb = nj_roster[0]
-
-jb
-
-jb_flat = {}
-jb_flat['person_id'] = jb['person']['id']
-jb_flat['name'] = jb['person']['fullName']
-jb_flat['jersey'] = jb['jerseyNumber']
-jb_flat['position'] = jb['position']['code']
-
-jb_flat
-
-def flatten_player(nested):
-    flat = {}
-    flat['person_id'] = nested['person']['id']
-    flat['name'] = nested['person']['fullName']
-    flat['position'] = nested['position']['code']
-    return flat
-
-df_nj = DataFrame([flatten_player(x) for x in nj_roster])
-
-def process_roster1(team_dict):
-    roster = team_dict['roster']['roster']
-    df = DataFrame([flatten_player(x) for x in roster])
-    return df
-
-df_nj2 = process_roster1(nj)
-df_nj2.head()
-
-df_sea = process_roster1(rosters_json['teams'][-1])
-df_sea.head()
-
-def process_roster2(team_dict):
-    roster = team_dict['roster']['roster']
-    df = DataFrame([flatten_player(x) for x in roster])
-    df['team_id'] = team_dict['id']
-    df['team_name'] = team_dict['name']
-    return df
-
-df_nj3 = process_roster2(nj)
-df_nj3.head()
-
-league_rosters = pd.concat([process_roster2(x) for x in rosters_json['teams']],
-        ignore_index=True)
-
-league_rosters.sample(5)
-
 ###################
 # player stats data
 ###################
 player_id = 8471675  # sidney crosby
-stats_url = f'https://statsapi.web.nhl.com/api/v1/people/{player_id}/stats?stats=yearByYear'
+stats_url = f'https://api-web.nhle.com/v1/player/{player_id}/game-log/20232024/2'
 
 crosby_resp = requests.get(stats_url)
 crosby_json = crosby_resp.json()
@@ -127,27 +227,57 @@ crosby_json = crosby_resp.json()
 # with open('./data/json/crosby.json') as f:
 #     crosby_json = json.load(f)
 
-crosby_stats_0 = crosby_json['stats'][0]['splits'][0]
+crosby_stats_0 = crosby_json['gameLog'][0]
 crosby_stats_0
 
-def flatten_player_year_stats(stats_dict):
-    stats_flat = stats_dict['stat']
-    stats_flat['season'] = stats_dict['season']
-    stats_flat['team'] = stats_dict['team']['name']
-    stats_flat['league'] = stats_dict['league']['name']
-    return stats_flat
+def flatten_game_log(nested):
+    flat = {key: value for key, value in nested.items()
+        if type(value) is not dict}
+    return flat
 
-flatten_player_year_stats(crosby_stats_0)
+flatten_game_log(crosby_stats_0)
 
-crosby_stats_all = DataFrame([flatten_player_year_stats(x) for x in
-    crosby_json['stats'][0]['splits']])
-crosby_stats_all[['season', 'team', 'league', 'assists', 'goals', 'games']]
+crosby_stats_all = DataFrame([flatten_game_log(x) for x in
+    crosby_json['gameLog']])
 
-def hist_stats_by_player_year(player_id):
-    stats_url = f'https://statsapi.web.nhl.com/api/v1/people/{player_id}/stats?stats=yearByYear'
+crosby_stats_all[['gameDate', 'opponentAbbrev', 'goals', 'assists', 'plusMinus']].head(10)
+
+
+def games_by_player(player_id):
+    stats_url = f'https://api-web.nhle.com/v1/player/{player_id}/game-log/20232024/2'
     stats_resp = requests.get(stats_url)
     stats_json = stats_resp.json()
-    return DataFrame([flatten_player_year_stats(x) for x in stats_json['stats'][0]['splits']])
+    return DataFrame([flatten_game_log(x) for x in stats_json['gameLog']])
 
-ovechkin_stats = hist_stats_by_player_year(8471214)
-ovechkin_stats[['season', 'team', 'league', 'assists', 'goals', 'games']].head()
+mcdavid_stats = games_by_player(8478402)
+mcdavid_stats[['gameDate', 'opponentAbbrev', 'goals', 'assists', 'plusMinus']].head()
+
+################################################################################
+################################################################################
+
+## note: this part isn't meant to be run
+## i (nate) am running this Wed 1/31/24 to save data we'll load above
+## 
+## including here to make it clearer this saved data above just comes from APIs
+
+# standings_url = 'https://api-web.nhle.com/v1/standings/2024-01-21'
+# tor_roster_url = 'https://api-web.nhle.com/v1/roster/TOR/20232024'
+# stats_url = f'https://api-web.nhle.com/v1/player/{player_id}/game-log/20232024/2'
+
+# standings_resp = requests.get(standings_url)
+# tor_roster_resp = requests.get(tor_roster_url)
+# crosby_resp = requests.get(stats_url)
+
+# standings_json = standings_resp.json()
+# tor_roster_json = tor_roster_resp.json()
+# crosby_json = crosby_resp.json()
+
+# with open('./data/json/standings.json', 'w') as f:
+#     json.dump(standings_json, f)
+
+# with open('./data/json/tor_roster.json', 'w') as f:
+#     json.dump(tor_roster_json, f)
+
+# with open('./data/json/crosby.json', 'w') as f:
+#     json.dump(crosby_json, f)
+
