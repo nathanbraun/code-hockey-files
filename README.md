@@ -23,6 +23,9 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.1.1 (2024-01-31)
+Remove some now unnec lines from old API - thanks Scott!
+
 ### v0.1.0 (2024-01-31)
 Major update to the API chapter. Rewrote everything to use the new NHL API
 since the old one stopped working. 
