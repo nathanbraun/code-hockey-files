@@ -23,6 +23,9 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.1.3 (2024-02-19)
+Fixed typo in the introduction — thanks Matt!
+
 ### v0.1.1 (2024-01-31)
 Remove some now unnec lines from old API - thanks Scott!
 
