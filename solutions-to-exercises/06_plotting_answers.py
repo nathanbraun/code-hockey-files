@@ -21,44 +21,44 @@ dfpg = pd.read_csv(path.join(DATA_DIR, 'player_games.csv'))
 ###############################################################################
 
 g = (sns.FacetGrid(dfpg)
-     .map(sns.kdeplot, 'time_ice_pp', shade=True))
-g.fig.subplots_adjust(top=0.9)
-g.fig.suptitle('Distribution of Power Play Time')
+     .map(sns.kdeplot, 'time_ice_pp', fill=True))
+g.figure.subplots_adjust(top=0.9)
+g.figure.suptitle('Distribution of Power Play Time')
 g.savefig('./solutions-to-exercises/6-1a.png')
 
 # 6.1b
 g = (sns.FacetGrid(dfpg, hue='pos')
-    .map(sns.kdeplot, 'time_ice_pp', shade=True))
-g.fig.subplots_adjust(top=0.9)
-g.fig.suptitle('Distribution of Power Play Time by Position B')
+    .map(sns.kdeplot, 'time_ice_pp', fill=True))
+g.figure.subplots_adjust(top=0.9)
+g.figure.suptitle('Distribution of Power Play Time by Position B')
 g.savefig('./solutions-to-exercises/6-1b.png')
 
 # 6.1c
 g = (sns.FacetGrid(dfpg, col='pos', col_wrap=3)
-    .map(sns.kdeplot, 'time_ice_pp', shade=True))
-g.fig.subplots_adjust(top=0.8)
-g.fig.suptitle('Distribution of Power Play Time by Position C')
+    .map(sns.kdeplot, 'time_ice_pp', fill=True))
+g.figure.subplots_adjust(top=0.8)
+g.figure.suptitle('Distribution of Power Play Time by Position C')
 g.savefig('./solutions-to-exercises/6-1c.png')
 
 # 6.1d
 g = (sns.FacetGrid(dfpg, col='pos', hue='pos', col_wrap=3)
-    .map(sns.kdeplot, 'time_ice_pp', shade=True))
-g.fig.subplots_adjust(top=0.8)
-g.fig.suptitle('Distribution of Power Play Time by Position D')
+    .map(sns.kdeplot, 'time_ice_pp', fill=True))
+g.figure.subplots_adjust(top=0.8)
+g.figure.suptitle('Distribution of Power Play Time by Position D')
 g.savefig('./solutions-to-exercises/6-1d.png')
 
 # 6.1e
 g = (sns.FacetGrid(dfpg, col='team', col_wrap=6)
-    .map(sns.kdeplot, 'time_ice_pp', shade=True))
-g.fig.subplots_adjust(top=0.9)
-g.fig.suptitle('Distribution of Power Play Time by Team D')
+    .map(sns.kdeplot, 'time_ice_pp', fill=True))
+g.figure.subplots_adjust(top=0.9)
+g.figure.suptitle('Distribution of Power Play Time by Team D')
 g.savefig('./solutions-to-exercises/6-1e.png')
 
 # #### 6.2
 # 6.2a
 g = sns.relplot(x='time_ice_pp', y='time_ice_sh', data=dfpg)
-g.fig.subplots_adjust(top=0.9)
-g.fig.suptitle('Power Play vs. Short Handed Time')
+g.figure.subplots_adjust(top=0.9)
+g.figure.suptitle('Power Play vs. Short Handed Time')
 g.savefig('./solutions-to-exercises/6-2a.png')
 
 # 6.2b
