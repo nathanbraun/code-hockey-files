@@ -23,6 +23,10 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.2.0 (2024-06-18)
+Clean up code in seaborn chapter to get rid of warning messages (thanks
+Francois!).
+
 ### v0.1.5 (2024-06-07)
 Fix issue in random forest section about mixing string and integer variable
 names (thanks Danny!).

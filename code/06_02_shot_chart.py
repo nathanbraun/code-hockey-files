@@ -36,7 +36,7 @@ g = sns.relplot(data=dfs, x='st_x', y='st_y', kind='scatter', s=10)
 g.set(yticks=[], xticks=[], xlabel=None, ylabel=None)
 g.despine(left=True, bottom=True)
 
-for ax in g.fig.axes:
+for ax in g.figure.axes:
     ax.imshow(map_img, zorder=0, extent=[-110, 110, -42, 42])
 
 # how about a bit of jitter
@@ -44,7 +44,7 @@ dfs['xj'] = np.random.uniform(dfs['st_x'] - 0.5, dfs['st_x'] + 0.5)
 dfs['yj'] = np.random.uniform(dfs['st_y'] - 0.5, dfs['st_y'] + 0.5)
 
 g = sns.relplot(data=dfs, x='xj', y='yj', kind='scatter', s=10)
-for ax in g.fig.axes:
+for ax in g.figure.axes:
     ax.imshow(map_img, zorder=0, extent=[-100, 100, -42, 42])
 g.set(yticks=[], xticks=[], xlabel=None, ylabel=None)
 g.despine(left=True, bottom=True)
@@ -54,7 +54,7 @@ def shot_chart(df, **kwargs):
     g.set(yticks=[], xticks=[], xlabel=None, ylabel=None)
     g.despine(left=True, bottom=True)
 
-    for ax in g.fig.axes:
+    for ax in g.figure.axes:
         ax.imshow(map_img, zorder=0, extent=[-110, 110, -42, 42])
 
     return g
@@ -77,10 +77,10 @@ g = shot_chart(dfs, hue='goal', style='goal', s=20, height=8, legend=False)
 
 # contour plots
 g = (sns.FacetGrid(dfs, col='goal', row='shot_type', hue='goal')
-     .map(sns.kdeplot, 'xj', 'yj', alpha=0.5, shade=True))
+     .map(sns.kdeplot, 'xj', 'yj', alpha=0.5, fill=True))
 g.set(yticks=[], xticks=[], xlabel=None, ylabel=None)
 g.despine(left=True, bottom=True)
-for ax in g.fig.axes:
+for ax in g.figure.axes:
     ax.imshow(map_img, zorder=0, extent=[-110, 110, -42, 42])
 
 # without shading
@@ -88,6 +88,6 @@ g = (sns.FacetGrid(dfs, col='goal', row='pos', hue='goal')
      .map(sns.kdeplot, 'xj', 'yj', alpha=0.5))
 g.set(yticks=[], xticks=[], xlabel=None, ylabel=None)
 g.despine(left=True, bottom=True)
-for ax in g.fig.axes:
+for ax in g.figure.axes:
     ax.imshow(map_img, zorder=0, extent=[-110, 110, -42, 42])
 

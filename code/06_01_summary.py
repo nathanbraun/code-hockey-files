@@ -1,8 +1,6 @@
 import pandas as pd
 import datetime as dt
-import numpy as np
 import seaborn as sns
-import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from os import path
 
@@ -53,30 +51,30 @@ dfpg['shots'].value_counts(normalize=True).sort_index().head(10)
 
 # basic displot
 # all on one line
-g = sns.FacetGrid(dfs).map(sns.kdeplot, 'dist', shade=True)
+g = sns.FacetGrid(dfs).map(sns.kdeplot, 'dist', fill=True)
 
 # on seperate lines so it's clearer it's a two step process
 g = (sns.FacetGrid(dfs)
-     .map(sns.kdeplot, 'dist', shade=True))
+     .map(sns.kdeplot, 'dist', fill=True))
 
 # hue - density plot of standard points by goal or not
 g = (sns.FacetGrid(dfs, hue='shot_type')
-    .map(sns.kdeplot, 'dist', shade=True)
+    .map(sns.kdeplot, 'dist', fill=True)
     .add_legend())
 
 # col - goal or not
 g = (sns.FacetGrid(dfs, hue='shot_type', col='goal')
-    .map(sns.kdeplot, 'dist', shade=True)
+    .map(sns.kdeplot, 'dist', fill=True)
     .add_legend())
 
 # reversed
 g = (sns.FacetGrid(dfs, hue='goal', col='shot_type')
-    .map(sns.kdeplot, 'dist', shade=True)
+    .map(sns.kdeplot, 'dist', fill=True)
     .add_legend())
 
 # density plot of standard points by position and week
 g = (sns.FacetGrid(dfs, hue='goal', col='shot_type', height=2, col_wrap=3)
-     .map(sns.kdeplot, 'dist', shade=True)
+     .map(sns.kdeplot, 'dist', fill=True)
      .add_legend())
 g.set(xlim=(0, 80), ylim=(0, 0.15))
 plt.show()
@@ -96,7 +94,7 @@ dfg[['date_time_gmt', 'home_team', 'away_team', 'home_goals',
     'away_goals']].head()  # have this
 
 def home_away_goals_df(df, location):
-    df = df[['game_id', 'date_time_gmt', f'{location}_team', f'{location}_goals']]
+    df = df[['game_id', 'date_time_gmt', f'{location}_team', f'{location}_goals']].copy()
     df.columns = ['game_id', 'date_time_gmt', 'team', 'goals']
     df['location'] = location
     return df
@@ -108,13 +106,13 @@ goals_long = pd.concat([
     ignore_index=True)
 
 g = (sns.FacetGrid(goals_long, hue='location')
-     .map(sns.kdeplot, 'goals', shade=True))
+     .map(sns.kdeplot, 'goals', fill=True))
 g.add_legend()
 
 # jittering
 import random
 
-random.uniform()
+random.uniform(0, 1)
 
 [random.gauss(0, 1) for _ in range(10)]
 
@@ -122,7 +120,7 @@ goals_long['jgoals'] = (
     goals_long['goals'].apply(lambda x: x + random.gauss(0, 1)))
 
 g = (sns.FacetGrid(goals_long, hue='location')
-     .map(sns.kdeplot, 'jgoals', shade=True)
+     .map(sns.kdeplot, 'jgoals', fill=True)
      .add_legend())
 
 #################################
@@ -150,11 +148,11 @@ sns.relplot(x='jweight', y='jheight', data=dfp, col='pos',
 
 # dist more effective?
 g = (sns.FacetGrid(dfp, hue='team', col='team', col_wrap=5)
-    .map(sns.kdeplot, 'jweight', shade=True))
+    .map(sns.kdeplot, 'jweight', fill=True))
 
 # try contour
 g = (sns.FacetGrid(dfp, col='pos', hue='pos', col_wrap=2)
-     .map(sns.kdeplot, 'weight_lb', 'height_in', shade=True))
+     .map(sns.kdeplot, 'weight_lb', 'height_in', fill=True))
 
 # without shading
 g = (sns.FacetGrid(dfp, col='pos', hue='pos')
@@ -175,7 +173,6 @@ dfp.query("name != 'Z. Chara'")[['weight_lb', 'height_in', 'age']].corr()
 
 # scatter plot of 0.705 correlation
 g = sns.relplot(x='jweight', y='jheight', data=dfp)
-plt.show()
 
 ########################
 # line plots with python
@@ -211,15 +208,15 @@ g = sns.relplot(x='period_min', y='dist', kind='line', hue='pos',
 
 # basic plot
 g = (sns.FacetGrid(dfs, col='shot_type', hue='shot_type')
-     .map(sns.kdeplot, 'dist', shade=True))
+     .map(sns.kdeplot, 'dist', fill=True))
 
 # wrap columns
 g = (sns.FacetGrid(dfs, col='shot_type', hue='shot_type', col_wrap=3)
-     .map(sns.kdeplot, 'dist', shade=True))
+     .map(sns.kdeplot, 'dist', fill=True))
 
 # adding a title
-g.fig.subplots_adjust(top=0.9) # adding a title
-g.fig.suptitle('Distribution of Shot Distance by Type')
+g.figure.subplots_adjust(top=0.9) # adding a title
+g.figure.suptitle('Distribution of Shot Distance by Type')
 
 # modifying options
 g.set(xlim=(0, 80))
