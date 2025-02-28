@@ -23,6 +23,9 @@ If I were using Windows, it might look like this:
 Set these aside for now and we'll pick them up in chapter 2.
 
 ## Changelog
+### v0.3.3 (2025-02-28)
+Fixed code typo in book (files unaffected) - thanks Fred!
+
 ### v0.3.2 (2025-02-28)
 Added Spyder instructions for Intel Macs.
 
